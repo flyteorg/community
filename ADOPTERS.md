@@ -25,6 +25,7 @@ Please maintain an alphabetical order in the following list -->
 - [Ntropy](https://ntropy.com/)
 - [Pachama](https://pachama.com/)
 - [Porch](https://porch.com)
+- [Recogni](https://www.recogni.com/)
 - [RunX.dev](https://runx.dev/)
 - [Schibsted](https://schibsted.com/)
 - [Spotify](https://www.spotify.com/)
