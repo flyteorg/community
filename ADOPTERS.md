@@ -15,6 +15,7 @@ Please maintain an alphabetical order in the following list -->
 - [Hubert Burda Media](https://www.burda.com/en/)
 - [Hurb](https://www.hurb.com/)
 - [Intel](https://www.intel.com/)
+- [Kineo.ai](https://www.kineo.ai/)
 - [LatchBio](https://www.latch.bio/)
 - [Level 5 Global Autonomous (Woven Planet)](https://level-5.global/)
 - [Lyft](https://www.lyft.com/)
