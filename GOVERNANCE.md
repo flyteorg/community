@@ -1,4 +1,3 @@
-
 # Flyte Governance 
 
 This document defines the governance structure for the Flyte project.
@@ -128,17 +127,25 @@ New maintainers must already be contributors, must be nominated by an existing m
 In extenuating circumstances, i.e. long term absence of a maintainer, steering committee members may act as maintainers.
 
 ### Steering Committee
+
 The Steering Committee Members are responsible for the direction of the project (roadmap), and cross-cutting concerns such as:
-- Reviewing and deciding on new projects to add to Flyte
+- Reviewing and deciding on new sub-projects to add to Flyte
+- Create sub-committees or Special Interest Groups to focus on cross-project technical issues and requirements
 - Voting on role changes (eg adding new Steering Committee member)
 - Voting on updating this document
 - Voting on RFCs that impact any of the above responsibilities.
+
+#### Steering Committee membership lifecycle
+
+In order to aspire to 
 
 ## Stepping Down/Emeritus Process
 If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) vs moving to emeritus status (completely stepping away from the project).
 
 Contact the Maintainers about changing to Emeritus status, or reducing your contributor level.
-
+_______
+**NOTE:** Maintainers and TSC members are documented in [MAINTAINERS](MAINTAINERS.md)
+____
 ## Definitions
 
 ### Supermajority
