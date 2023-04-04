@@ -8,6 +8,7 @@ Please maintain an alphabetical order in the following list -->
 
 - [appliedAI Initiative](https://appliedai.de)
 - [Blackshark.ai](https://blackshark.ai/)
+- [Cradle](https://cradle.bio)
 - [Discovery](https://www.discovery.com/)
 - [Freenome](https://www.freenome.com/)
 - [Gojek](https://www.gojek.io/)
@@ -27,6 +28,7 @@ Please maintain an alphabetical order in the following list -->
 - [Pachama](https://pachama.com/)
 - [Porch](https://porch.com)
 - [Recogni](https://www.recogni.com/)
+- [Roboception]()
 - [RunX.dev](https://runx.dev/)
 - [Schibsted](https://schibsted.com/)
 - [Spotify](https://www.spotify.com/)
