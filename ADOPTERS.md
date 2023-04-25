@@ -6,6 +6,7 @@ Below is a list of organizations and projects that have publicly adopted Flyte:
 <!-- **NOTE**
 Please maintain an alphabetical order in the following list -->
 
+- [Adarga](https://adarga.ai/)
 - [appliedAI Initiative](https://appliedai.de)
 - [Blackshark.ai](https://blackshark.ai/)
 - [Cradle](https://cradle.bio)
