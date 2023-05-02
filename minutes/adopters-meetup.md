@@ -16,15 +16,14 @@
         * Guest presentation (show & tell)
         * Open mic/questions [add your name]
 
-:::info
-:information_source: **Reminders** 
-:::
+ **Reminders** 
+
 * All meetings are recorded and posted to Flyte's [YouTube channel](https://www.youtube.com/@flyteorg)
 * You agree to abide by The Linux Foundation's [Code of Conduct](https://lfprojects.org/policies/code-of-conduct/) 
 * Agenda is open for everyone wanting to ask questions or propose discussion topics
-:::info
-:information_source: **How to stay involved**
-:::
+
+**How to stay involved**
+
 * [Join Slack](https://flyte-org.slack.com)
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
