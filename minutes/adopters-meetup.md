@@ -1,6 +1,6 @@
-# Flyte adopters meetup
+# Flyte community meeting
 
-[![HacmKD documents](https://hackmd.io/badge.svg)](https://hackmd.io/@davidmirror/r1PDrxkEh?edit)
+[![HacmKD documents](https://hackmd.io/badge.svg)](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ?edit)
 
 ## Logistics
 * **Goal:** Share success/failure stories with other Flyte community members, get updates on what's new in the project and learn how other organizations/projects are using/integrating Flyte
