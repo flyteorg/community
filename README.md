@@ -5,15 +5,15 @@ You'll find here relevant information to get started as a member and potentially
 # Communication channels
 Learn how to stay informed on what's happening in the Flyte community:
 ## Community meeting:
-  - When: every other Tuesday at 9:00a.m. PT
-  - Where: Zoom ([details and add to your calendar](https://www.addevent.com/event/EA7823958))
-  - Past meetings ([recordings](https://www.youtube.com/@flyteorg/playlists) | [notes](https://hackmd.io/@flyte-community/r1PDrxkEh))
+  * When: every other Tuesday at 9:00a.m. PT
+  * Where: Zoom ([details and add to your calendar](https://www.addevent.com/event/EA7823958))
+  * Past meetings ([recordings](https://www.youtube.com/@flyteorg/playlists) | [notes](https://hackmd.io/@flyte-community/r1PDrxkEh))
 
 ## Slack
-- [Join Flyte workspace](https://slack.flyte.org/)
+*  [Join Flyte workspace](https://slack.flyte.org/)
 
 ## Mailing list
-[Subscribe](https://lists.lfaidata.foundation/g/flyte-announce/join) to receive the monthly newsletter
+* [Subscribe](https://lists.lfaidata.foundation/g/flyte-announce/join) to receive the monthly newsletter
 
 ## Office Hours
 
