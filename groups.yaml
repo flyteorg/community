@@ -1,0 +1,29 @@
+workinggroups:
+#Copy template below and replace/remove as needed
+
+# START TEMPLATE #
+
+# - name: <WORKING_GROUP_NAME>
+#   mission_statement: <What is the exact problem this group is trying to solve?> [See full Mission Statement](LINK TO EXTERNAL DOC IF NEEDED).
+#   stakeholder_sigs:
+#   - LIST (IF ANY) #Who are all of the stakeholder SIGs involved in this problem this group is trying to solve?
+#   deliverable: <What is the artifact that this group will deliver, and to whom?>
+#   leadership:
+#     chairs:
+#     - github: <insert_handle>
+#       name: <insert_name>
+#     - github: <insert_handle>
+#       name: <insert_name>
+#   # Meetings are not mandatory for WGs
+#   meetings:
+#   - description: Regular WG Meeting
+#     day: Tuesday
+#     time: "9:30"
+#     tz: PT (Pacific Time)
+#     frequency: biweekly
+#     url: <Insert_meeting_link>
+#     recordings_url: https://www.youtube.com/@flyteorg/videos
+#   contact:
+#     slack: <Insert Slack channel>
+
+  # END TEMPLATE #
