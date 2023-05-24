@@ -116,7 +116,7 @@ The following table lists the roles we use within the Flyte community. The table
   </tr>
 </table>
 
-## Expanded description and processes
+## Role description and processes
 
 ### **Community participant**
 You do not need to be a member of the Flyte team to contribute. Anyone can help by using and talking about Flyte, participating in discussions, answering questions on Slack/Stack Overflow, opening issues, submitting PRs, etc. All of these are fantastic and welcome contributions to the project.
@@ -167,6 +167,83 @@ Contact the Maintainers about changing to Emeritus status, or reducing your cont
 _______
 **NOTE:** The current list of maintainers and TSC members lives in [MAINTAINERS](MAINTAINERS.md)
 ____
+## Community groups
+
+The Flyte project is comprised of the following types of subgroups:
+
+- Special Interest Groups (SIGs)
+  - Subprojects
+- Working Groups (WGs)
+
+![](https://raw.githubusercontent.com/flyteorg/static-resources/main/common/flyte-governance-model.png)
+### **SIGs**
+
+Special Interest Groups are formed by members from multiple companies and organizations, with a common goal of advancing the project with respect a specific topic. Every identifiable subpart of the project (e.g. repository, subdirectory, API, test, issue, PR) is intended to be owned by some SIG.
+
+Areas covered by SIGs are defined in terms of the level of cross-collaboration and code ownership required to meet their goals:
+
+* **Horizontal SIGs**: deal with project-wide priorities as defined by the Technical Steering Committee, potentially owning multiple technical assets (repositories, etc)
+* **Domain-specific SIGs**: more focused on particular components of the project, including work towards developing or improving integrations with other projects.
+
+### Organizational structure
+
+Every SIG should have one SIG chair at any given time, appointing a co-chair when considered necessary. SIG chairs are intended to be organizers and facilitators, responsible for the operation of the SIG and for communication and coordination with the other SIGs, the Steering Committee, and the broader community.
+
+Each SIG must have a charter that specifies its scope (topics, subsystems, code repos and directories), responsibilities and areas of authority.
+
+SIGs are voluntary groups which operate in the open and anyone can join.
+
+
+#### **Steps to start a SIG**
+1. Copy [the template](https://github.com/flyteorg/community/blob/main/templates/sig-charter-template.md) into a new file under `/community/sig-YOURSIG/charter.md` 
+2. Fill out the template for your SIG
+3. Create a PR with the results of the previous step
+4. Notify in the [#contribute](https://flyte-org.slack.com/archives/C04NJPLRWUX) channel and ask [Technical Steering Committee](https://github.com/flyteorg/community/blob/main/MAINTAINERS.md) members for review/approval
+5. Once accepted by [supermajority](#supermajority) of the TSC, the SIG will be ratified by merging the PR
+## Working Groups
+
+Designed to facilitate discussions/work regarding topics that are short-lived or that span multiple SIGs, Working Groups are distinct from SIGs in that they are intended to:
+
+- facilitate collaboration across SIGs
+- facilitate an exploration of a problem / solution through a group with minimal governmental overhead
+
+### It is a Working Group if...
+
+- It has a clear goal measured through a specific deliverable or deliverables
+- It is temporary in nature and will be disbanded after reaching its stated goal(s)
+
+### **Steps to start a Working Group**
+1. Answer the following questions:
+   - What is the exact problem this group is trying to solve?
+   - What is the artifact that this group will deliver, and to whom?
+   - How does the group know when the problem solving process is completed, and it is time for the Working Group to dissolve?
+   - Who are all of the stakeholder SIGs involved in this problem this group is trying to solve?
+   - What are the meeting mechanics (frequency, duration, roles)? **Meetings are suggested but not mandatory for Working Groups**
+   - Does the goal of the Working Group represent the needs of the project as a whole, or is it focused on the interests of a narrow set of contributors or companies?
+   - Who will chair the group, and ensure it continues to meet these requirements?
+   - Is diversity well-represented in the Working Group?
+2. Document your answers in a PR on [`groups.yaml`](https://github.com/flyteorg/community/blob/main/groups.yaml)
+3. Request reviews from [Technical Steering Committee](https://github.com/flyteorg/community/blob/main/MAINTAINERS.md) Members. A new WG is approved by a [supermajority](#supermajority) of TSC active members.
+4. Once merged, the WG is officially chartered until it either completes its stated goal, or disbands voluntarily.
+
+> NOTE: Working groups should strive to make regular reports to stakeholder SIGs or the broader community in order to ensure the mission is still aligned with the current state.
+
+## Community groups retirement process
+
+### SIGs
+In the event that the SIG is unable to regularly establish consistent quorum or otherwise fulfill its responsibilities
+
+- after 3 or more months it SHOULD be retired
+- after 6 or more months it MUST be retired
+
+### WGs
+
+Working Groups will be disbanded if either of the following is true:
+
+- Its original goal was accomplished and results were communicated
+- There is no longer a Lead (with a 6 week grace period)
+- None of the communication channels for the Working Group have been in use for the goals outlined at the founding of the Working Group (with a 3 month grace period)
+
 ## Definitions
 
 ### Supermajority
