@@ -27,3 +27,18 @@ workinggroups:
 #     slack: <Insert Slack channel>
 
   # END TEMPLATE #
+  
+ - name: runtime-overrides-group
+   mission_statement: Make task configuration fully overrideable at runtime
+   stakeholder_sigs: []
+   deliverable:  RFC https://github.com/flyteorg/flyte/pull/3553 is implemented
+   leadership:
+     chairs:
+     - github: https://github.com/ByronHsu
+       name: Byron Hsu
+     - github: https://github.com/bstadlbauer
+       name: Bernhard Stadlbauer
+     - github: https://github.com/fg91
+       name: Fabio Graetz
+   contact:
+     slack: https://flyte-org.slack.com/archives/C05A4PNMKL1
