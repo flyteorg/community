@@ -11,14 +11,7 @@ Learn how to stay informed on what's happening in the Flyte community:
 
 ### Schedule of guest presentations
 
-This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic to the list and we'll reach out to coordinate logistics:
-
-| Date | Presenter  | Topic  |   
-|---|---|---|
-| 06/27/2023  | Dr. Fabio Graetz  |Flyte at Recogni   |
-|07/11/2023   | *Add your name*  |   |
-|07/25/2023   | *Add your name*  |   |
-|08/08/2023|*Add your name*|
+This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic [to the list](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ?both#Schedule-of-guest-presentations) and we'll reach out to coordinate logistics
 
 ## Slack
 *  [Join Flyte workspace](https://slack.flyte.org/)
