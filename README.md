@@ -6,13 +6,17 @@ You'll find here relevant information to get started as a member and potentially
 Learn how to stay informed on what's happening in the Flyte community:
 ## Community meeting:
   * When: every other Tuesday at 9:00a.m. PT
-  * Where: Zoom ([details and add to your calendar](https://www.addevent.com/event/EA7823958))
+  * Where: Zoom ([add to your calendar](https://www.addevent.com/event/EA7823958))
   * Past meetings ([recordings](https://www.youtube.com/@flyteorg/playlists) | [notes](https://hackmd.io/@flyte-community/r1PDrxkEh))
 
 ### Schedule of guest presentations
 
 This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic [to the list](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ?both#Schedule-of-guest-presentations) and we'll reach out to coordinate logistics
 
+## Contributors meetup
+* When: every other Thursday at 11:00a.m. PT
+* Where: Zoom ([add to your calendar](https://www.addevent.com/event/xn16931566))
+* Past meetings: ([recordings](https://www.youtube.com/playlist?list=PLmQd1BBY9MWozXmf4NGS8zQK17E5aV8oE) | [notes](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ))
 ## Slack
 *  [Join Flyte workspace](https://slack.flyte.org/)
 
