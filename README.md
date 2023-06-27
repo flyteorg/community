@@ -16,7 +16,7 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 ## Contributors meetup
 * When: every other Thursday at 11:00a.m. PT
 * Where: Zoom ([add to your calendar](https://www.addevent.com/event/xn16931566))
-* Past meetings: ([recordings](https://www.youtube.com/playlist?list=PLmQd1BBY9MWozXmf4NGS8zQK17E5aV8oE) | [notes](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ))
+* Past meetings: ([recordings](https://www.youtube.com/playlist?list=PLmQd1BBY9MWozXmf4NGS8zQK17E5aV8oE) | [notes](https://github.com/flyteorg/community/tree/main/minutes/contributors-meetup))
 ## Slack
 *  [Join Flyte workspace](https://slack.flyte.org/)
 
