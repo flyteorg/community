@@ -31,7 +31,7 @@ The following table lists the roles we use within the Flyte community. The table
     <td>Follow the LF AI & Data Foundation <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a></td>
     <td>None</td>
     <td>
-        <p>Can submit PRs and issues</p>
+        <p>Can submit PRs and issues from forks</p>
         <p>Can join <a href="https://slack.flyte.org/">Flyte Slack workspace</a></p>
         <p>Can take part in community discussions</p>
     </td>
@@ -61,7 +61,6 @@ The following table lists the roles we use within the Flyte community. The table
         <p>May close/open/reassign Issues</p>
         <p>May request PR reviews</p>
         <p>Can mark duplicate Issues/PRs</p>
-        <p>Can create forks</p>
     </td>
     <td>Specific repo(s) under flyteorg </td>
   </tr>  
@@ -151,7 +150,7 @@ The following table lists the roles we use within the Flyte community. The table
 You do not need to be a member of the Flyte team to contribute. Anyone can help by using and talking about Flyte, participating in discussions, answering questions on Slack/Stack Overflow, opening issues, submitting PRs, etc. All of these are fantastic and welcome contributions to the project.
 
 ### **Collaborator**
-Collaborators are individuals who demonstrate an active interest on the project and are willing to help other community members.
+Collaborators are individuals who demonstrate an active interest in the project and are willing to help other community members.
 
 #### **New collaborator nomination and election process**
 
