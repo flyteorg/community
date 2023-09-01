@@ -28,6 +28,7 @@ Please maintain an alphabetical order in the following list -->
 - [Nokia Corporation](https://www.nokia.com/)
 - [Ntropy](https://ntropy.com/)
 - [Pachama](https://pachama.com/)
+- [PITS Global Data Recovery Services](https://www.pitsdatarecovery.net/)
 - [Porch](https://porch.com)
 - [Recogni](https://www.recogni.com/)
 - [Roboception]()
