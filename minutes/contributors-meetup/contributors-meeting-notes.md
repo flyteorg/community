@@ -1,6 +1,53 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+
+
+## September 28, 2023
+  * Attendees [name, affiliation]
+      * David Espejo (Union.ai)
+      * Bernhard Stadlbauer (Pachama.com)
+      * Eduardo Apolinario (Union.ai)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+      * Simplify retry behavior implementation ready for review
+          * Do we expose the system-level retry budget?
+          * This proposal is aimed to claraify the behavior
+      * 
+  * Working Groups updates
+      * Config Overrrides
+          * Linkedin team evaluating the effort to implement the example proposed by Ketan here: https://docs.google.com/document/d/1vS9Gml1Yq-Y5ylAnhk8Iju5874xvz6b0Skd1IvKsXRQ/edit
+          * Follow up needed to confirm. Bernhard to sync with Byron Hsu
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Community pulse
+  * Open mic/questions [add your name]
+      * Status of the monorepo (Bernhard)
+          * Beta release built off the monorepo
+          * Guide soon to be out to show open PR authors how to *transform* those PRs to the monorepo
+          * Monorepo is reay to try it out!
+      * Propeller debugging strategies (Bernhard)
+          * Reported bug: https://github.com/flyteorg/flyte/issues/4087
+
+## September 14, 2023
+* Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Niels Bantilan (Union.ai)
+    * Eduardo Apolinario (Union.ai)
+    * Fabio Grätz (Recogni.com)
+    * Dennis Keck (Recogni.com)
+    * Dan Rammer (Union.ai)
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+    * No recent updates. Pending decision on Linkedin document
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+    * Monorepo [Eduardo]
+        * https://github.com/flyteorg/flyte/pull/4014 will make it official
+        * script to move pending PRs
+    * Proxy-Authorization PR/integration with GCP Identity Aware Proxy
+        * flytekit PR approved by Haytham
+        * Have implemented the same logic for flytectl, will add tests and create PR
 ## August 31, 2023
   * Attendees [name, affiliation]
       * David Espejo (Union.ai)
