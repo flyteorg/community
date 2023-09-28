@@ -2,7 +2,6 @@
 
 -----
 
-
 ## September 28, 2023
   * Attendees [name, affiliation]
       * David Espejo (Union.ai)
