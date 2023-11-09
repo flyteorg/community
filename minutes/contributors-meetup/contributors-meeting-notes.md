@@ -1,6 +1,42 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## October 26, 2023
+* Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Niels Bantilan (Union.ai)
+    * Byron Hsu (LinkedIn)
+    * Fabio Grätz (Recogni.com)
+    * Eduardo Apolinario (Union.ai)
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+    * Deprioritized (on hold) for now
+    * Implementation effort is high
+    * Not urgency so far that motivates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * [vscode plugin](https://github.com/flyteorg/flyte/issues/4284) turning any python (AutoContainer) task to a vscode server to accelerate the debug/develop process
+    * [streaming literals](https://github.com/flyteorg/flyte/discussions/4101): a streaming primitive data type.
+* Community pulse
+    * Issues with old docs versions (see [here](https://github.com/flyteorg/flyte/issues/4181) and [here](https://github.com/flyteorg/flyte/issues/3730) )
+    * Notifications
+* Open mic/questions [add your name]
+
+## October 12, 2023
+  * Attendees [name, affiliation]
+      * Eduardo Apolinario (Union.ai)
+      * Bernhard Stadlbauer (Pachama.com)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+       
+  * Working Groups updates
+      * Follow up needed to confirm. Bernhard to sync with Byron Hsu (Byron is on vacation)
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+      )
+      * [Disable local caching](https://github.com/flyteorg/flyte/discussions/4192) (Bernhard)
+  * Community pulse
+  * Open mic/questions [add your name]
+      
 
 ## September 28, 2023
   * Attendees [name, affiliation]
