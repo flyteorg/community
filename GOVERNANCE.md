@@ -65,8 +65,8 @@ The following table lists the roles we use within the Flyte community. The table
     <td>Specific repo(s) under flyteorg </td>
   </tr>  
   <tr>
-    <td rowspan="2">Contributor</td>
-    <td colspan="4"><i>Inherits from Contributor role</i></td>
+    <td rowspan="2">Committer</td>
+    <td colspan="4"><i>Inherits from Collaborator role</i></td>
   </tr>
   <tr>
     <td>
@@ -94,7 +94,7 @@ The following table lists the roles we use within the Flyte community. The table
   </tr>
 <tr>
     <td rowspan="2">Maintainer</td>
-    <td colspan="4"><i>Inherits from Contributor Role</i></td>
+    <td colspan="4"><i>Inherits from Committer Role</i></td>
   </tr>
  
   <tr>
@@ -119,7 +119,7 @@ The following table lists the roles we use within the Flyte community. The table
 
   <tr>
     <td rowspan="2">Steering Committee</td>
-    <td colspan="4"><i>Inherits from Maintainer Role</i></td>
+    <td colspan="4"><i>Inherits from Collaborator Role</i></td>
   </tr>
   <tr>
     <td>
@@ -161,17 +161,17 @@ New contributors may be self-nominated or nominated by existing contributors by 
 3. Once submitted, new collaborators must be elected by a [supermajority](#supermajority) of that project’s (repository) maintainers in no more than 14 days.
 4. If a new collaborator is accepted, they will receive an invitation to join the `flyteorg` Github organization, inheriting the permissions defined for the Collaborator role in that repository or repositories.
 
-### **Contributor**
-Similar to the `committer` role in other projects, Flyte Contributors are those who make regular contributions to the project (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.) and receive Write access to the repo in their scope.
+### **Committer**
+Flyte Committers are those who make regular contributions to the project (documentation, code reviews, responding to issues, participation in proposal discussions, contributing code, etc.) and receive Write access to the repo in their scope.
 
-#### **New contributor nomination and election process**
+#### **New committer nomination and election process**
 
-New contributors may be self-nominated or nominated by existing contributors by completing the following steps:
+New committers may be self-nominated or nominated by existing committers by completing the following steps:
 
-1. Submit [a new issue](https://github.com/flyteorg/community/issues/new?assignees=&labels=contributor-nomination&template=contributor-nomination.md&title=) to the `community` repo using the `contributor nomination` label
+1. Submit [a new issue](https://github.com/flyteorg/community/issues/new?assignees=&labels=contributor-nomination&template=contributor-nomination.md&title=) to the `community` repo using the `committer nomination` label
 2. Assign current maintainers to the issue. If unsure, check [MAINTAINERS.md](https://github.com/flyteorg/community/blob/main/MAINTAINERS.md)
-3. Once submitted, new contributors must be elected by a [supermajority](#supermajority) of that project’s (repository) maintainers in no more than 14 days.
-4. If a new contributor is accepted, they will receive an invitation to join the `flyteorg` Github organization, inheriting the permissions defined for the Contributor role in that repository or repositories.
+3. Once submitted, new committers must be elected by a [supermajority](#supermajority) of that project’s (repository) maintainers in no more than 14 days.
+4. If a new committer is accepted, they will receive an invitation to join the `flyteorg` Github organization, inheriting the permissions defined for the Contributor role in that repository or repositories.
 
 ### **Maintainers**
 Maintainers are in charge of the day to day maintenance of the team's projects.
