@@ -48,6 +48,148 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+
+## November 28, 2023
+* Agenda
+  * Host: Samhita Alla
+  * Attendees [name, affiliation]
+      * Kyle Briggs (iTMethods Inc.)
+      * Dan Butler (Salk Institute)
+      * Chris Grass (MCG Health)
+  * Welcome new members
+  * News from the ecosystem
+    * Duet AI: https://cloud.google.com/blog/products/ai-machine-learning/how-duet-ai-speeds-up-development-and-operations
+    * Llama on AWS Inferentia2: https://huggingface.co/blog/inferentia-llama2
+    * AI Proxy: https://www.braintrustdata.com/blog/ai-proxy
+  * Community/project updates
+    * Flyte school episode coming: https://flyte.org/events/flyte-school-learn-your-codebase-fine-tuning-codellama-with-flyte-to-learn-flyte
+    * Dosu bot is being rolled out in the Flyte repository
+        * [Example 1](https://github.com/flyteorg/flyte/issues/4488)
+        * [Example 2](https://github.com/flyteorg/flyte/issues/4491#issuecomment-1829805632)
+    * New reference implementation for GCP ([PR](https://github.com/unionai-oss/deploy-flyte/pull/7#pullrequestreview-1743810920))
+    * Vote to rename `Contributor` role: https://github.com/flyteorg/community/issues/20
+  * **Community roundtable**
+      * Action items:
+          * Update FTHW guide to include permissions on workers (David)
+          * 
+ * Open mic/questions [add your name]
+     
+## November 14, 2023
+* Agenda
+
+  * Host: David Espejo
+  * Attendees [name, affiliation]
+      * Nikki Everett (Union.ai)
+      * Troy Chiu (UCSD)
+      * Niels Bantilan (Union.ai)
+  * Welcome new members
+      * Devin Stein (OSS Manintainer/ Dosu founder https://dosu.dev/)
+      * Paul (IT Methods)
+  * News from the ecosystem
+    * Efficient LLM inference on CPUs: https://arxiv.org/abs/2311.00502v1
+    * MemGPT: build chatbots with self-editing memory, extending the LLM context -> perpetual conversations: https://github.com/cpacker/MemGPT 
+    * cuDF: https://github.com/rapidsai/cudf
+    * OpenAI Dev Day: https://openai.com/blog/new-models-and-developer-products-announced-at-devday
+        * GPT-4 Turbo with 128k context (+April 2023 knowledge cutoff)
+        * Assistants API
+        * GPT-4 Turbo with Vision
+        * DALL E 3 API
+        * Also, [GPTs](https://openai.com/blog/introducing-gpts)
+    * AWS announces EC2 Capacity Blocks (a.k.a. reserve your GPU): https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-capacity-blocks-for-ml-to-reserve-gpu-capacity-for-your-machine-learning-workloads/
+    * Levels of AGI: a framework https://arxiv.org/abs/2311.02462
+    * HPC Foundation: https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-form-high-performance-software-foundation-hpsf
+  * Community/project updates
+    * [Hacktoberfest wrap-up](https://flyte.org/blog/hacktoberfest-2023-wrap-up)
+    * Flyte school episode coming: https://union.ai/events/flyte-school-learn-your-codebase-fine-tuning-codellama-with-flyte-to-learn-flyte
+  * Guest presentation (show & tell)
+    * **Building the FlyteChatGPT Summary Bot: lessons learned** by Eric Chen
+    
+ * Open mic/questions [add your name]
+     * [Dosu](https://dosu.dev/): demo  (Devin Stein)
+
+## October 31, 2023
+* Host: Samhita Alla
+* Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Joe Eschen (Union.ai)
+    * Eric Chen (Flyte Contributor) (Future-Outlier)
+* Welcome new members
+    * 
+* News from the ecosystem
+    * Pandera 0.17 is out: https://www.union.ai/blog-post/pandera-0-17-adds-support-for-pydantic-v2
+    * Text embeddings inference: https://github.com/huggingface/text-embeddings-inference
+    * Voyager: https://voyager.minedojo.org/
+* Community/project updates
+    * New Slack guidelines: https://docs.flyte.org/en/latest/community/index.html#slack-guidelines
+    * **Flyte 1.10 is out**: https://flyte.org/blog/flyte-1-10-monorepo-new-agents-pyflyte-ergonomic-improvements-and-more
+    * Hacktoberfest: Final call to have your PRs merged!
+* Guest presentation (show & tell)
+    * **Flyte journey at Cleo** by Jose Navarro
+* Open mic/questions [add your name]
+
+## October 17, 2023
+
+* Host: David Espejo
+* Attendees [name, affiliation]
+    * Ketan Umare [Union AI]
+    * Joe Eschen [Union AI]
+    * Katrina Rogan [Union AI]
+    * Kyle Briggs [iTMethods Inc.]
+* Welcome new members 
+    * Troy Chiu (MsC student, UC San Diego)
+* News from the ecosystem
+    * State of AI report: https://www.stateof.ai/
+    * A visual exploration illustrating the why and how of LLMs: https://ig.ft.com/generative-ai/
+    * Take on stateless Terraform: https://www.bejarano.io/terraform-stateless-critique/
+    *  Protect AI Open Sources Three Tools to Help Organizations Secure AI/ML Environments from Threats: https://www.businesswire.com/news/home/20231005973991/en/Protect-AI-Open-Sources-Three-Tools-to-Help-Organizations-Secure-AIML-Environments-from-Threats
+* Community/project updates
+    * "Spotify's Next-Gen Workflow Platform with Flyte" talk at Crunch Conf: https://www.linkedin.com/posts/sonja-ericsson_just-had-an-incredible-time-speaking-at-activity-7116157198937784320-GdFO
+    * An introductory guide to LLMs: https://flyte.org/blog/getting-started-with-large-language-models-key-things-to-know
+    * Flyte school session on Flyte plugins: https://union.ai/events/flyte-school-enrich-your-ai-pipelines-a-deep-dive-into-flyte-plugins
+    * **Hacktoberfest** 
+        * Performance so far:
+            * ![](https://hackmd.io/_uploads/rk3Mdlhbp.png)
+            *  61% increase in code contributions
+            *  36% increase in productivity
+            *  42 open Issues / 14 unassigned / 33 with [no linked PRs](https://github.com/flyteorg/flyte/issues?q=is%3Aopen+label%3Ahacktoberfest+-linked%3Apr+sort%3Acomments-desc+)
+            *  2 blog posts in review
+            *  ![](https://hackmd.io/_uploads/HyQucmh-6.png)
+            *  Updates to guidelines:
+                *  First-come, first-served
+                *  Link your PR to the Issue using [GH keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+
+
+* Guest presentation (show & tell)
+    * **Power Your Flyte Machine Learning Workflows with Bacalhau Computing** by David Aronchick
+        * Links shown:
+            * 
+* Open mic/questions [add your name]
+     
+-----
+
+## October 3, 2023
+
+* Host: 
+    * David Espejo
+* Attendees [name, affiliation]
+    * 
+* Welcome new members
+    * 
+* News from the ecosystem
+    * Python 3.12 is out: https://www.python.org/downloads/release/python-3120/
+    * Llama2 on SageMaker: perf benchmark https://huggingface.co/blog/llama-sagemaker-benchmark
+    * Preventing hallucination in LMMs: https://arxiv.org/abs/2309.14525
+    * Open source coding assistant: https://tabby.tabbyml.com/
+    * Mistral AI https://mistral.ai/news/announcing-mistral-7b/
+* Community/project updates
+* 
+    * Hacktoberfest: https://flyte.org/blog/flyte-at-hacktoberfest-2023
+    * 1.10 beta release: https://github.com/flyteorg/flytekit/releases/tag/v1.10.0b0
+        * Upcoming release will be the 1st using the monorepo = simplified contribution experience
+* Guest presentation (show & tell)
+    * **Running pipelines on spot computing with Flyte and MMCloud** by Jing and Hui from Memverge
+* Open mic/questions [add your name]
+
 ## September 19, 2023
 * Host: Samhita Alla
 * Attendees [name, affiliation]
