@@ -34,7 +34,11 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 |09/19/2023| Community monthly roundtable    |   |    |
 |10/03/2023| Jing Xie and HuiC (Memverge)   | Intro to MMCloud and Flyte integration demo |    |
 |10/17/2023| David Aronchick and the team from Bacalhau Computing    |  Intro to Flyte and Bacalhau integration|    |
-|10/31/2023| *Add your name*    |  |    |
+|10/31/2023| Jose Navarro    |Flyte journey at Cleo  |    |
+|11/14/2023| Han Ru    | Flyte ChatGPT Agent |    |
+|11/28/2023| Community roundtable    |  |    |
+|12/05/2023|Neeraj Malhotra / Niels Bantilan    | Pandera-PySpark integration |    |
+
 :::info
 :information_source: **Reminders** 
 :::
