@@ -1,6 +1,100 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## December 7, 2023
+* Attendees [name, affiliation]
+    * Fabio Grätz (Recogni.com)
+    * Dan Rammer (Union.ai)
+    * Nikki Everett (Union.ai)
+    * David Espejo (Union.ai)
+    * 
+* Welcome new members
+    * Jeames and Paul
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+  * N/A
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * Flow auth inside Tasks [James Sutton]: https://github.com/flyteorg/flyte/discussions/4527
+        * Also involve the Stripe team
+    * Rough edges in the type engine [Fabio]:
+        * Implementation needs more discussion
+* Open mic/questions [add your name]
+  * Getting started guide updates [Nikki]
+
+## November 23, 2023 (Cancelled due to US Holiday)
+## November 9, 2023
+  * Attendees [name, affiliation]
+      * David Espejo (Union.ai)
+      * Fabio Grätz (Recogni.com)
+      * Dan Rammer (Union.ai)
+      * Troy Chiu (UCSD)
+      * Bernhard Stadlbauer (Pachama.com)
+      * Eduardo Apolinario (Union.ai)
+      * Niels Bantilan (Union.ai)
+  * Welcome new members
+      * Daniel Farrell (Cyrus Biotech)
+      * Nikki Everett (Tech Writer, Union.ai)
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Working Groups updates
+      * Config Overrides -> halted for now
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+      * Sorting through old discussions
+          * [Discussed] [Build images on the fly while registering](https://github.com/flyteorg/flyte/discussions/3397)
+              * No development since March
+              * Already implemented for envd
+              * Currently there is a [plugin in development for docker](https://github.com/flyteorg/flytekit/pull/1926)
+              * Close -> yes
+              * Related: [Slack thread](https://flyte-org.slack.com/archives/C04NJPLRWUX/p1699405285278189)
+          * [Discussed] [Allow disabling Flyte cache locally via env var](https://github.com/flyteorg/flyte/discussions/4192)
+              * Bernhard will create PR -> close RFC
+          * [Will be an RFC] [Streaming Literals](https://github.com/flyteorg/flyte/discussions/4101)
+          * [First version merged, plugin, no RFC required] [VSCode decorator](https://github.com/flyteorg/flyte/discussions/4314)
+              * will be a plugin that doesn't require changes in flytekit -> no RFC required
+          * [Discussion will be continued in the contributor slack channel, no RFC] [Asking for feedback on Bacalhau integration](https://github.com/flyteorg/flyte/discussions/4099)
+              * RFC incubator is wrong format -> close?
+          * [Implementation in progress, backend changes already merged, discussion can be closed][GPU type selection](https://github.com/flyteorg/flyte/discussions/3796)
+              * several different proposals for how UX could look like -> should be an RFC
+          * [Save resolved execution time parameters in flyteadmin, David will ping Katrina to turn into an issue](https://github.com/flyteorg/flyte/discussions/3934)
+              * This could just be an issue -> Yes.
+          * [David to reach out to original authors to confirm direction. If closed, Ip should persist] [Distributed Locks](https://github.com/flyteorg/flyte/discussions/3754)
+              * No development since August 1
+              * Needs a champion or should be closed
+          * [Make it an Issue][Run flyte exec from jupyter](https://github.com/flyteorg/flyte/discussions/3878)
+              * Probably useful feature for data scientists
+              * Pinged Niels what the status is here
+              * Decision: make it an Issue
+          * [Fabio champions RFC, Dan supports] [Feedback mechanism from task pod to propeller/use pod logs](https://github.com/flyteorg/flyte/discussions/3838)
+              * Really important, let's revive this one
+          * [More investigation needed to see if using Airflow Operators enables what's described here][Introduce triggers for workflows](https://github.com/flyteorg/flyte/discussions/3464)
+              * No development since July 11
+              * Cool feature
+          * [Will be used as a use case/argument for #3838] [Customizing logging links](https://github.com/flyteorg/flyte/discussions/3666)
+              * Dependant on a feedback mechanism from the task pod to flytepropeller
+          * [Dependant on the development of webhooks, help wanted][Notification system including Slack](https://github.com/flyteorg/flyte/discussions/3647)
+              * Important
+              * What about https://github.com/flyteorg/flyte/pull/4147? @Kevin
+          * [?] [Generate spark resource configuration from machine config](https://github.com/flyteorg/flyte/discussions/3655)
+              * Needs a champion
+          * [Already covered by Issue][Ability to add notes to executions](https://github.com/flyteorg/flyte/discussions/3646)
+              * Covered by the "system tags and metadata RFC"
+              * Close this discussion?
+              * Is there a timeline for bringing this to flyte console?
+              * Issue: https://github.com/flyteorg/flyte/issues/3960
+          * [Close ][Allow users to inject secrets via `pyflyte run`](https://github.com/flyteorg/flyte/discussions/3622)
+              * Needs a champion
+              * Implementation in progress on Union Cloud
+          * [Close][Infinitely long running tasks](https://github.com/flyteorg/flyte/discussions/3463)
+              * Unsure, what is relation to the [trigger](https://github.com/flyteorg/flyte/discussions/3464) discussion?
+          
+          * [Address by recent contributions][Improving Launch plan UX](https://github.com/flyteorg/flyte/discussions/3333)
+              * Criticizes e.g. that launchplans cannot be (de-)activated from the UI
+              * Needs a champion?
+  * Open mic/questions [add your name]
+      * Docker plugin discussion (see PR: https://github.com/flyteorg/flytekit/pull/1926) [**Dan Farrell**]
+
+
+
+
 ## October 26, 2023
 * Attendees [name, affiliation]
     * David Espejo (Union.ai)
