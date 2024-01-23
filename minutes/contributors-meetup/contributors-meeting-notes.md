@@ -1,6 +1,72 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## January 18, 2024
+* Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Fabio Grätz (Recogni.com)
+    * Nikki Everett (Union.ai)
+    * Dan Rammer (Union.ai)
+    * Eduardo Apolinario (Union.ai)
+    * Bernhard Stadlbauer (Pachama.com)
+* Welcome new members
+    * Austin Stretz
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * [Polish "rough edges" of type engine](https://github.com/flyteorg/flyte/discussions/4544)
+    * [Offloading of objects during registration is a difficult to debug trap for inexperienced users we should catch](https://github.com/flyteorg/flyte/discussions/4743)
+* Open mic/questions [add your name]
+    * UX of dynamic workflows. Is there capacity to tackle [this issue](https://github.com/flyteorg/flyte/issues/4466) in the frontend?
+    * Dosubot's value [David]
+    * Meeting logistics [David]
+
+
+* **Minutes**:
+
+Welcome and introductions @ 0:00
+
+David welcomed attendees including new community member Austin, who aims to learn MLOps through Flyte.
+
+Discussion of new RFCs and proposals @ 3:26
+
+Members discussed a proposal for a .flyteignore file to ignore files during registration. They agreed Bernhard should open an issue. Kevin explained challenges with notification plugins, agreeing to discuss further offline.
+
+Proposed .flyteignore file for ignoring files @ 19:15
+
+Bernhard proposed a .flyteignore file to avoid unintentionally including large files during fast registration. Members agreed this could prevent user frustration and improve the experience. Bernhard offered to submit an initial implementation.
+
+Improving object serialization between tasks @ 26:53
+
+Fabio demonstrated an issue where objects serialized during registration are saved locally instead of the blob store. Members agreed the system should default to the blob store to avoid workflow failures. They will further discuss improving usability.
+
+Improving dynamic workflow debugging @ 31:23
+
+Fabio highlighted frustrations debugging dynamic workflows due to unclear errors. Members agreed the UI should surface detailed error messages from preparer to aid users. John will investigate propagating errors appropriately in the UI.
+
+Discussion of meeting logistics and community involvement @ 41:11
+
+David asked about meeting frequency and timezones. Members agreed to biweekly meetings but explore alternating times to include others. They aim to foster a more welcoming community through clear communication.
+
+
+## January 4, 2024
+
+* Attendees [name, affiliation]
+    * Bernhard Stadlbauer (Pachama.com)
+    * Dan Rammer (Union.ai)
+    * Nikki Everett (Union.ai)
+ * Welcome new members
+     * N/A
+ * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+     * #3749:
+         * Not implemented yet
+         * Probably needs a new name
+         * A.I.: reach out to Katrina to confirm
+* 
+
+ * Working Groups updates
+ * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+ * Open mic/questions [add your name]
+## December 21 (cancelled due to holidays)
 ## December 7, 2023
 * Attendees [name, affiliation]
     * Fabio Grätz (Recogni.com)
