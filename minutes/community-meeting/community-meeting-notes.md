@@ -52,7 +52,33 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
-
+## December 12, 2023
+* Host: David Espejo 
+* Attendees [name, affiliation]
+* Welcome new members
+    * Pryce Turner (Union.ai)
+* News from the ecosystem
+    * MLX: https://github.com/ml-explore/mlx-examples
+    * Magicoder: source code is all you need https://arxiv.org/abs/2312.02120
+    *  EU AI Act agreement: https://www.technologyreview.com/2023/12/11/1084942/five-things-you-need-to-know-about-the-eus-new-ai-act/
+    *  Keras 3.0 released: https://keras.io/keras_3/
+    *  Extracting 5% of ChatGPT's training data for $200: https://arxiv.org/abs/2311.17035
+    *  Verba: the Golden RAGtriever https://github.com/weaviate/Verba#verba
+* Community/project updates
+    * [Flyte 1.10.6](https://github.com/flyteorg/flyte/releases/tag/v1.10.6) and [Flytekit 1.10.2](https://github.com/flyteorg/flyte/releases/tag/v1.10.6) released!
+        * More fine-grained GPU requests
+        * Improved support for Ray logs
+        * Updated Grafana dashboards
+        * Added support for Azure AD to the `stow` implementation
+        * Added support for ImageSpec in V1Container (pod_template)
+        * 6 new contributors!
+        * ...plus much more
+    * **Meeting on Dec 26: skipped**
+* Guest presentation (show & tell)
+    * **Neeraj Malhotra: Single Source of Truth leveraging Pandera**!
+* Open mic/questions [add your name]
+    * Introducing Autoflows: https://github.com/unionai-oss/autoflows [Niels]
+    
 ## November 28, 2023
 * Agenda
   * Host: Samhita Alla
