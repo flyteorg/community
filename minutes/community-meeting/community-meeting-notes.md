@@ -52,6 +52,27 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+## January 9, 2024
+**Happy New Year!**
+
+* Host: Samhita Alla
+* Attendees [name, affiliation]
+* Welcome new members
+* News from the ecosystem
+    * VMRL: https://mlforsystems.org/assets/papers/neurips2023/paper37.pdf
+    * Inference graphs: https://drive.google.com/file/d/14sq6jnec-4pkueTnV6bZCFzIiuG_wl1U/view
+    * Ten Noteworthy AI Research Papers of 2023: https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023
+    * Pluto: https://github.com/FairwindsOps/pluto
+    * Canary checker: https://github.com/flanksource/canary-checker
+* Community/project updates
+    * Bioinformatics on Flyte: https://flyte.org/blog/bioinformatics-on-flyte-read-alignment
+    * HITL pipelines: https://www.union.ai/blog-post/human-in-the-loop-pipelines
+    * Deploy Flyte on GCP: https://www.union.ai/blog-post/flyte-for-gcp-a-platform-engineers-overview
+    * Flyte community raffle: https://www.union.ai/blog-post/flyte-weekly-community-raffle-lets-soar-to-new-heights
+* Guest presentation (show & tell)
+    * **Pryce Turner: Managing Bioinformatics Pipelines from Start to Finish with Flyte**
+* Open mic/questions [add your name]
+
 ## December 12, 2023
 * Host: David Espejo 
 * Attendees [name, affiliation]
@@ -78,7 +99,7 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
     * **Neeraj Malhotra: Single Source of Truth leveraging Pandera**!
 * Open mic/questions [add your name]
     * Introducing Autoflows: https://github.com/unionai-oss/autoflows [Niels]
-    
+
 ## November 28, 2023
 * Agenda
   * Host: Samhita Alla
