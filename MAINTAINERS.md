@@ -12,7 +12,6 @@ The current Maintainers Group for the Flyte project consists of:
 |[Katrina Rogan](https://github.com/katrogan)|Union.ai|Maintainer|
 |[Yee Hing-Tong](https://github.com/wild-endeavor)|Union.ai | Maintainer|
 |[Dan Rammer](https://github.com/hamersaw)| Union.ai| Maintainer|
-|[Jeev B](https://github.com/jeevb)| Freenome| Maintainer|
 |[Samhita Alla](https://github.com/samhita-alla)|Union.ai| Maintainer|
 
 

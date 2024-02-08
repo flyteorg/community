@@ -46,6 +46,7 @@ Please maintain an alphabetical order in the following list -->
 - [Theorem](https://www.theoremlp.com/)
 - [Union.ai](https://union.ai/)
 - [USU Group](https://www.usu.com/)
+- [Wallapop](https://es.wallapop.com/)
 - [Warner Bros](https://www.warnerbros.com/)
 - [Wolt](https://www.wolt.com)
 - [Ziprecruiter](https://www.youtube.com/watch?v=E3W2UjIa6Gg)
