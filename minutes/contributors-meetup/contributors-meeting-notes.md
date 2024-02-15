@@ -1,6 +1,26 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## February 1, 2024
+* Attendees [name, affiliation]
+    * Fabio Grätz
+    * David Espejo
+    * Bernhard Stadlbauer (Pachama.com)
+    * Niels Bantilan (Union.ai)
+    * Nikki Everett (Union.ai)
+    * Eduardo Apolinario (Union.ai)
+* Welcome new members
+    * Troy Howard (Union.ai)
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * Revisit [#4570](https://github.com/flyteorg/flyte/pull/4570#issuecomment-1899201267)
+        * Ping Ethan on this
+* Open mic/questions [add your name]
+    * flyteconsole OSS fork [Jason]
+    * Resource requests behavior (see [#2151](https://github.com/flyteorg/flytekit/pull/2151))
+    * Meeting logistics [David]
+    * Interested in early feedback on [this](https://github.com/flyteorg/flyte/pull/4726) PR (whether there is agreement that this is a useful feature) [Fabio]
+
 ## January 18, 2024
 * Attendees [name, affiliation]
     * David Espejo (Union.ai)
