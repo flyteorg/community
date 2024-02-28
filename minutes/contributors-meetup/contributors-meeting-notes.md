@@ -21,6 +21,28 @@
     * Meeting logistics [David]
     * Interested in early feedback on [this](https://github.com/flyteorg/flyte/pull/4726) PR (whether there is agreement that this is a useful feature) [Fabio]
 
+## February 15, 2024
+  * Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Fabio Grätz
+    * Nikki Everett (Union.ai)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Working Groups updates
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Open mic/questions [add your name]
+    * Migrating meetings to LFX
+      * New Zoom : https://zoom-lfx.platform.linuxfoundation.org/meeting/92309721545?password=c93d76a7-801a-47c6-9916-08e38e5a5c1f
+      * Update pinned Slack message and everywhere else
+    * Alternating schedule
+      * Try for 4 meetings, measure and decide
+    * Plugin inventory WG?
+      * +1 to form a WG to audit the status of current plugins, including flytekit integrations
+      * Not all plugins are to me refactored as Agents
+      * Compile a list of people responsible of specific plugins, if there's no clear owner it's a good indicator of maintenance issues
+      * Nikki steps up to help too
+      
+
 ## January 18, 2024
 * Attendees [name, affiliation]
     * David Espejo (Union.ai)
