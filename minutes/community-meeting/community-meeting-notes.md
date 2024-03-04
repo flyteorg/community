@@ -38,7 +38,14 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 |11/14/2023| Han Ru    | Flyte ChatGPT Agent |    |
 |11/28/2023| Community roundtable    |  |    |
 |12/05/2023|Neeraj Malhotra / Niels Bantilan    | Pandera-PySpark integration |    |
-
+|02/06/2024 | Byron Hsu / Troy Chiu |FlyIn plugin |
+|02/06/2024| Marti Roca |Flyte journey at Wallapop|
+|03/05/2024 |Harel Shein | OpenLineage|
+|03/05/2024| Shivay Lamba| Monitoring Flyte with Prometheus and Grafana|
+|04/02/2024 | Michael Tinsley and Bram van Meurs | The Flyte journey at Adarga.ai |
+|04/02/2024 |*Add your name*  |*Add your topic* |
+|05/07/2024|Mariano Semelman  |Flyte at Sennder |
+|05/07/2024|*Add your name*  |*Add your topic* |
 :::info
 :information_source: **Reminders** 
 :::
@@ -52,6 +59,47 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+## February 6th, 2024
+
+ * Host: David Espejo
+ * Attendees [name, affiliation]
+   * David Espejo (Union.ai)
+   * Niels Bantilan (Union.ai)
+   * Nikki Everett (Union.ai)
+   * Han-Ru Chen (Flyte)
+   * Andy Czerwonka (Citrine.io)
+ * Welcome new members
+   * Andy Czerwonka, Citrine.io, Material Informatics, Principal Platform Engineer
+   * Sami Jawhar, MLOps Engineer, Kernel Bioscience
+   * 
+ * News from the ecosystem
+     * KDNuggets 2024 survey: ML projects still routinely fail to deploy https://www.kdnuggets.com/survey-machine-learning-projects-still-routinely-fail-to-deploy
+     * Huggingface open sources data processing library: https://github.com/huggingface/datatrove
+     * Pytorch 2.2 is out: https://pytorch.org/blog/pytorch2-2/
+           - AOTInductor, which compiles PyTorch modules into a `.so` , so you can load it from C++ (without a Python runtime)
+     * AI2 released an open 7B model: https://blog.allenai.org/hello-olmo-a-truly-open-llm-43f7e7359222
+     * MS moving from C# to Rust: https://medium.com/@lucas_scott/after-abandoning-c-c-microsoft-forms-new-team-to-rewrite-c-code-in-rust-a4d3e3f5e58a
+     * SliceGPT: Compress Large Language Models by Deleting Rows and Columns: https://arxiv.org/abs/2401.15024v1
+     * Build an LLM from scratch (WIP): https://github.com/rasbt/LLMs-from-scratch
+     
+
+* Community/project updates
+    * February Newsletter is out. [Subscribe](https://lists.lfaidata.foundation/g/flyte-announce/join)
+    * Glimelab bot. Join [#ask-ai](https://flyte-org.slack.com/archives/C06H1SFA19R)
+    * Migration to LF Zoom
+    * Don't miss next meeting!
+* Guest presentation (show & tell)
+    * **Marti Jorda Roca, The Flyte journey at Wallapop**
+    * **Byron Hsu and Troy Chiu, Develop ML models interactively with the FlyteInteractive plugin**
+* Open mic/questions [add your name]
+    * Andy Czerwonka
+        * Scala/JVM ecosystem, so very interested in discussing risk around adopting Flyte, e.g.
+            * Is it active? Are there companies running the `flytekit-java` in production?
+                * > Project being tested, and collecting feedback, No guarantees of API stability
+            * What about binding directly to the gRPC interfaces?
+            * What's the current feature gap vs the Python SDK?
+        * We also have some Python use cases, and will continue to invest there
+
 ## January 9, 2024
 **Happy New Year!**
 
