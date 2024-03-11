@@ -42,3 +42,24 @@ workinggroups:
  #      name: Fabio Graetz
  #  contact:
  #    slack: https://flyte-org.slack.com/archives/C05A4PNMKL1
+
+ - name: plugin-inventory-WG
+   mission_statement: Answer the question: "What plugins are available for Flyte and what's their status?"
+   stakeholder_sigs: []
+   deliverable:  Wiki/Issue with a list that includes the following:
+     - Plugin type (backend/WebAPI) 
+     - Maintainer(s)
+     - Status: does it work or not?
+     - Missing elements: documentation, code, etc. 
+   leadership:
+     chairs:
+     - github: https://github.com/davidmirror-ops
+       name: David Espejo
+ #    - github: https://github.com/
+ #      name: 
+ #    - github: https://github.com/
+ #      name: 
+     members:
+     - github: 
+   contact:
+     slack: https://flyte-org.slack.com/archives/C06N0HNS25Q
