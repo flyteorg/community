@@ -1,49 +1,74 @@
-## WebAPI plugins
+
+# Introduction
+
+This is the main deliverable of the Plugin Inventory WG.
+You are encouraged to contribute to this list by:
+
+-  Confirming the status of one or more plugins that you're using ("does it work?")
+- Adding notes on what elements you see missing (even if the integration is working for you)
+
+## Why?
+
+Flyte is a platform only to the extent it is extensible. Also, it's on the interest of the community to rely on a robust ecosystem of integrations. This assessment is a first step towards finding possible issues on particular integrations and eventually allocate resources to fix them.
+
+## Agents
 
 |  Plugin | Status   |Missing elements (documentation/code)   |  Notes |   |
 |---|---|---|---|---|
-|  Snowflake |   |   |   |   |
+|  Airflow |   |   |   |   |
+|  ChatGPT |   |   |   |   |
 |  Databricks |   |   |   |   |
+|  BigQuery |   |   |   |   |
+|  MMCloud |   |   |   |   |
+|  Sensor |   |   |   |   |
+|  Snowflake |   |   |   |   |
+|   |   |   |   |   |
 |   |   |   |   |   |
 
+## Backend plugins
+|  Plugin | Status   |Missing elements (documentation/code)   |  Notes |   |
+|---|---|---|---|---|
+|  Athena |   |   |   |   |
+|  AWS Batch|   |   |   |   |
+|  Dask |   |   |   |   |
+|  K8s |   |   |   |   |
+|  Hive |   |   |   |   |
+|  MPI |   |   |   |   |
+|  Pod |   |   |   |   |
+|  Pytorch |   |   |   |  
+|  Ray |   |   |   |   |
+|  Sagemaker |   |   |   |   |
+|  Spark |   |   |   |   |
+|  Tensorflow |   |   |   |   |
+|   |   |   |   |   |
 
 ## flytekit plugins
 
 |  Plugin | Status   | Missing elements (documentation/code) |  Notes |   |
 |---|---|---|---|---|
-|  dbt |   |   |   |   |
-|  mmcloud |   |   |   |   |
-|  whylogs |   |   |   |   |
 |  bacalhau |   |   |   |   |
-|  huggingface |   |   |   |   |
-|  pydantic |   |   |   |   |
-|  sqlalchemy |   |   |   |   |
-|  sagemaker |   |   |   |   |
-|  dask |   |   |   |   |
-|  duckdb |   |   |   |   |
-|  papermill |   |   |   |   |
-|  vaex |   |   |   |   |
-|  modin |   |   |   |   |
-|  polars |   |   |   |   |
-|  pandera |   |   |   |   |
+|  dbt |   |   |   |   |
 |  dolt |   |   |   |   |
+|  duckdb |   |   |   |   |
+|  envd (ImageSpec)|   |   |   |   |
+|flyteinteractive |   |   |   |   |
+|  greatexpectations |   |   |   |   |
+|  huggingface |   |   |   |   |
+|  identity-aware-proxy |   |   |   |   |
+|  huggingface |   |   |   |   |
+|  mmcloud |   |   |   |   |
+|  mlflow |   |   |   |   |
+|  modin |   |   |   |   |
 |  onnxtensorflow |   |   |   |   |
 |  onnxscikitlearn |   |   |   |   |
 |  onnxpytorch |   |   |   |   |
-|  spark |   |   |   |   |
-|  hive |   |   |   |   |
-|  ray |   |   |   |   |
-|  snowflake |   |   |   |   |
-|  bigquery |   |   |   |   |
-|  kftensorflow |   |   |   |   |
-|  kfpytorch |   |   |   |   |
-|  kfmpi |   |   |   |   |
-|  athena |   |   |   |   |
-|  flyteinteractive |   |   |   |   |
-|  airflow |   |   |   |   |
-|  awsbatch |   |   |   |   |
-|  pod |   |   |   |   |
-|  envd |   |   |   |   |
-|  mlflow |   |   |   |   |
+|  pandera |   |   |   |   |
+|  papermill |   |   |   |   |
+|  polars |   |   |   |   |
+|  pydantic |   |   |   |   |
+|  sqlalchemy |   |   |   |   |
+|  vaex |   |   |   |   |
+|  whylogs |   |   |   |   |
+
 
 
