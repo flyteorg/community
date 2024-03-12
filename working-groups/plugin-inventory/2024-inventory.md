@@ -35,11 +35,10 @@ Flyte is a platform only to the extent it is extensible. Also, it's on the inter
 |  Hive |   |   |   |   |
 |  MPI |   |   |   |   |
 |  Pod |   |   |   |   |
-|  Pytorch |   |   |   |  
+|  KFPytorch |   |   |   |  
 |  Ray |   |   |   |   |
-|  Sagemaker |   |   |   |   |
 |  Spark |   |   |   |   |
-|  Tensorflow |   |   |   |   |
+|  KFTensorflow |   |   |   |   |
 |   |   |   |   |   |
 
 ## flytekit plugins
