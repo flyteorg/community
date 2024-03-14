@@ -13,61 +13,61 @@ Flyte is a platform only to the extent it is extensible. Also, it's on the inter
 
 ## Agents
 
-|  Plugin | Status   |Reported by |Missing elements (documentation/code)   |  Notes |   
-|---|---|---|---|
-|  Airflow |   |   |   |   
-|  ChatGPT |   |   |   |   
-|  Databricks |   |   |   |   
-|  BigQuery |   |   |   |  
-|MMCloud |   |   |   |   
-|  Sensor |   |   |   |   
-|  Snowflake |   |   |   |   
-|   |   |   |   |   
-|   |   |   |   |   
+|  Plugin | Status   |Reported by |Missing elements (documentation/code)   |  Notes |
+|---|---|---|---|---|
+|  Airflow |   |   |   |   |
+|  ChatGPT |   |   |   |   |
+|  Databricks |   |   |   |  |  
+|  BigQuery |   |   |   |  |
+|MMCloud |   |   |   |   |
+|  Sensor |   |   |   |   |
+|  Snowflake |   |   |   |   |  
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ## Backend plugins
 |  Plugin | Status   |Reported by |Missing elements (documentation/code)   |  Notes |   
-|---|---|---|---|
-|  Athena |   |   |   |   
-|  AWS Batch|   |   |   |   
-|  Dask |   |   |   |   
-|  K8s |   |   |   |   
-|  Hive |   |   |   |   
-|  MPI |   |   |   |   
-|  Pod |   |   |   |   
-|  KFPytorch |   |   |    
-|  Ray |   |   |   |   
-|  Spark |   |   |   |   
-|  KFTensorflow |   |   |   |   
-|   |   |   |   |   
+|---|---|---|---|---|
+|  Athena |   |   |   |  | 
+|  AWS Batch|   |   |   |  |  
+|  Dask |   |   |   |   |
+|  K8s |   |   |   |   |
+|  Hive |   |   |   |   |
+|  MPI |   |   |   |    |
+|  Pod |   |   |   |    |
+|  KFPytorch |   |   |  | 
+|  Ray |   |   |   |    |
+|  Spark |   |   |   |   |
+|  KFTensorflow |   |   |   |  |   
+|   |   |   |   |   |
 
 ## flytekit plugins
 
 |  Plugin | Status   | Reported by|Missing elements (documentation/code) |  Notes |  
-|---|---|---|---|
-|  bacalhau |   |   |   |   
-|  dbt |   |   |   |   
-|  dolt |   |   |   |   
-|  duckdb |   |   |   |   
-|  envd (ImageSpec)|   |   |   |   
-|flyteinteractive |   |   |   |   
-|  greatexpectations |   |   |   |   
-|  huggingface |   |   |   |   
-|  identity-aware-proxy |   |   |   |   
-|  huggingface |   |   |   |   
-|  mmcloud |   |   |   |   
-|  mlflow |   |   |   |   
-|  modin |   |   |   |   
-|  onnxtensorflow |   |   |   |   
-|  onnxscikitlearn |   |   |   |   
-|  onnxpytorch |   |   |   |   
-|  pandera |   |   |   |   
-|  papermill |   |   |   |   
-|  polars |   |   |   |   
-|  pydantic |   |   |   |   
-|  sqlalchemy |   |   |   |   
-|  vaex |   |   |   |   
-|  whylogs |   |   |   |   
+|---|---|---|---|---|
+|  bacalhau |   |   |   |   |
+|  dbt |   |   |   |   |
+|  dolt |   |   |   |   |
+|  duckdb |   |   |   |  | 
+|  envd (ImageSpec)|   |   |   |   |
+|flyteinteractive |   |   |   |   |
+|  greatexpectations |   |   |   |  |  
+|  huggingface |   |   |   |   |
+|  identity-aware-proxy |   |   |   |  |   
+|  huggingface |   |   |   |   |
+|  mmcloud |   |   |   |   |
+|  mlflow |   |   |   |   |
+|  modin |   |   |   |   |
+|  onnxtensorflow |   |   |   | |   
+|  onnxscikitlearn |   |   |   |   |
+|  onnxpytorch |   |   |   |   |
+|  pandera |   |   |   |   |
+|  papermill |   |   |   |  | 
+|  polars |   |   |   |   |
+|  pydantic |   |   |   |  | 
+|  sqlalchemy |   |   |   |  |  
+|  vaex |   |   |   |   |
+|  whylogs |   |   |   |  |  
 
 
 
