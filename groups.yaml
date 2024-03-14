@@ -55,11 +55,12 @@ workinggroups:
      chairs:
      - github: https://github.com/davidmirror-ops
        name: David Espejo
- #    - github: https://github.com/
- #      name: 
+     - github: https://github.com/samhita-alla
+       name: Samhita Alla
  #    - github: https://github.com/
  #      name: 
      members:
-     - github: 
+     - github: https://github.com/neverett
+       name: Nikki Everett
    contact:
      slack: https://flyte-org.slack.com/archives/C06N0HNS25Q
