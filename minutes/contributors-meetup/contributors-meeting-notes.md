@@ -1,6 +1,43 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## February 29, 2024
+  * Attendees [name, affiliation]
+      * Bernhard Stadlbauer (Pachama.com)
+      * David Espejo (Union.ai)
+      * Dan Rammer (Union.ai)
+      * Fabio Grätz (Recogni)
+      * Nikki Everett (Union.ai)
+      * Han-Ru Chen (Flyte)
+      * Dennis Keck (Recogni)
+      * Eduardo Apolinario (Union.ai)
+      * Haytham Abuelfutuh (Union.ai)
+  * Welcome new members
+    * Rafael Reposo (Spotify)
+    * han-Run Chen
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Working Groups updates
+      * Should we close out the config override?
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Community pulse
+  * Open mic/questions [add your name]
+    * (Bernhard) Can we update the link at the top?
+    * (Bernhard) Will anyone be at KubeCon?
+
+### Minutes
+**Notification System Proposal**: Han-Ru Chen proposes adding a notification system to Flyte Interactive Plugin to notify users when the VSCode server is about to terminate. However, there's a discussion about whether this should be integrated into flyteadmin instead.  
+**Cluster Pool Proposal**: Rafael Raposo presents a proposal for implementing a cluster pool feature, allowing the selection of execution time and destination clusters for workflows.
+Discussion on Implementation: There's a discussion about whether existing labels for clusters can be reused for specifying execution time or if a new mechanism is needed.  
+**Action Items:**  
+Han-Run Chen agrees to close the notification system proposal.
+Rafael and Fabio agree to explore the implementation details of the cluster pool proposal further.  
+**Working Groups Update:**
+The Config Overrides Working Group is discussed for possible retirement due to inactivity.  
+**Incubator Ideas:**  
+Existing ideas in the incubator are mentioned, with no significant updates or discussions.
+Conclusion: The meeting concludes with a reminder to revisit the ideas in the incubator and an acknowledgment of potential future discussions.
+
+
 ## February 1, 2024
 * Attendees [name, affiliation]
     * Fabio Grätz
