@@ -1,6 +1,22 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## March 14, 2024
+  * Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Working Groups updates
+    * Plugin (Integrations?) Inventory WG:
+      * Proposed format: https://github.com/flyteorg/community/blob/main/working-groups/plugin-inventory/2024-inventory.md
+      * Details: https://github.com/flyteorg/community/blob/07dbb3e9b63fb49c11e3368a22775c4a80d1bd77/groups.yaml#L46-L66
+      * We need you!
+        * Suggestion: add a DATE column
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Open mic/questions [add your name]
+    - (Bernhard): Updates on (Slack) webhook support
+      - Related: https://github.com/flyteorg/flyte/pull/4605
+
 ## February 29, 2024
   * Attendees [name, affiliation]
       * Bernhard Stadlbauer (Pachama.com)
