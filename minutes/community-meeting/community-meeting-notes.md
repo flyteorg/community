@@ -59,6 +59,45 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+## March 5th, 2024
+
+* Host: David Espejo
+* Attendees [name, affiliation]
+  * Joe Eschen (Union)
+* Welcome new members
+  * Harel Shein (Datadog)
+* Community/project updates
+  * [Feedback wanted](https://hjsodmlux6v.typeform.com/to/KTkS97A3)
+  * Plugin Inventory WG
+* Roadmap updates
+  * Upcoming release: 1.11, Agents go GA!
+  - Docs:
+    -  https://docs.flyte.org/en/latest/flyte_agents/index.html
+    - https://docs.flyte.org/en/latest/flytesnacks/integrations.html#flyte-agents
+  - Flyte  School session on Agents: https://www.youtube.com/watch?v=LftIlLpd35A
+* Guest presentation (show & tell)
+  * **Cross-platform lineage with OpenLineage - Harel Shein**
+* Open mic/questions [add your name]
+
+## Minutes
+
+
+### Introductions and community updates
+The meeting began with introductions from new and returning members. Updates included an upcoming community survey, plans to inventory Flyte plugins, and Agents moving to general availability in the next release.
+
+Cross-platform data lineage with Openlineage
+Harel Shein presented on open lineage, explaining data lineage as metadata on data pipelines and how it is collected. Methods discussed capturing lineage at runtime from jobs versus analyzing logs or source code later.
+
+### Open lineage community and integrations
+
+Examples shown of projects producing and consuming open lineage events. Marquez provides a reference backend and UI to visualize lineage graphs and metadata. Integrations help standardize how different systems describe shared data.
+
+### Open lineage data model and event schema @ 33:05
+The model centers on jobs, instances, and datasets with "facets" for extra metadata. A job's lifecycle and the states datasets move through are tracked. Correlating events stitches together lineage.
+
+### Machine learning collaboration on Flyte @ 51:09
+Questions were asked on actioning lineage findings. Possibilities discussed for Flyte to natively support open lineage through its event streaming. Challenges noted around hosting but benefits to semantic information and collaboration
+
 ## February 6th, 2024
 
  * Host: David Espejo
