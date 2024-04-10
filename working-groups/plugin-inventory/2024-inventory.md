@@ -18,7 +18,7 @@ Flyte is a platform only to the extent it is extensible. Also, it's on the inter
 |  Airflow |   |   |   |   |
 |  ChatGPT |   |   |   |   |
 |  Databricks | (Legacy plugin) Works with issues |Robert Ambrus   |   | [Reported issue](https://github.com/flyteorg/flyte/issues/5203) |  
-|  BigQuery | (Legacy plugin) works but could be better |  Jake Dodd | See notes  | Coming from Airflow, most of our SQL was heavily templated using jinja. We worked around this by rendering the query in a function and passing that to the BigQuery Task. But if there was a way to do this with the Task directly. I know you can use BigQuery params, but these don’t support table names being templated, which is the main thing we template |
+|  BigQuery | (Legacy plugin) Works but could be better |  Jake Dodd | See notes  | Coming from Airflow, most of our SQL was heavily templated using jinja. We worked around this by rendering the query in a function and passing that to the BigQuery Task. But if there was a way to do this with the Task directly. I know you can use BigQuery params, but these don’t support table names being templated, which is the main thing we template |
 |MMCloud |   |   |   |   |
 |  Sensor |   |   |   |   |
 |  Snowflake |   |   |   |   |  
@@ -45,10 +45,10 @@ Flyte is a platform only to the extent it is extensible. Also, it's on the inter
 |  Plugin | Does it work for your use case?   | Reported by|Missing elements (documentation/code) |  Notes |  
 |---|---|---|---|---|
 |  bacalhau |   |   |   |   |
-|  dbt |   |   |   |   |
-|  dolt |   |   |   |   |
+|  dbt |  Yes |   |  Better documentation |   |
+|  dolt | Yes, with issues  |   |   |  [Reported issue](https://github.com/flyteorg/flyte/issues/5074) |
 |  duckdb |   |   |   |  | 
-|  envd (ImageSpec)|   |   |   |   |
+|  envd (ImageSpec)| Yes  |   | Better documentation  |   |
 |flyteinteractive |  No | Alex Beach  | Better documentation  |   |
 |  greatexpectations |   |   |   |  |  
 |  huggingface |   |   |   |   |
