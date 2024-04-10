@@ -1,6 +1,29 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## March 28, 2024
+
+ * Attendees [name, affiliation]
+     * Fabio Grätz
+     * Dennis Keck (Recogni)
+     * Nikki Everett (Union.ai)
+     * Bernhard Stadlbauer (Pachama.com)
+     * Eric Chen (Future Outlier) (Flyte)
+     * Haytham Abuelfutuh (Union)
+     * Eduardo Apolinario (Union)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Working Groups updates
+    * Integrations Inventory WG
+        * Flyte Integrations assessment form: https://forms.gle/7EvjuYgxpB2cb8wJ9
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * Project description for initialization: https://github.com/flyteorg/flyte/discussions/5090
+    * Return K8s events: https://github.com/flyteorg/flyte/discussions/5089
+    * Notifications via SMTP relay: https://github.com/flyteorg/flyte/discussions/5088
+    * Project isolation: https://github.com/flyteorg/flyte/discussions/5084
+  * Open mic/questions [add your name]
+      * (Bernhard) Webhook notifications
+
 ## March 14, 2024
   * Attendees [name, affiliation]
     * David Espejo (Union.ai)
