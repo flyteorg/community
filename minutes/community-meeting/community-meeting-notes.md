@@ -59,6 +59,30 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+## April 2, 2024
+
+* Host: Sage Elliott
+* Attendees [name, affiliation]
+  * David Espejo [Union.ai]
+
+* Welcome new members
+* News from the ecosystem
+  * HF co-founder released video lecture on building LLMs: https://www.youtube.com/watch?v=2-SPH9hIKT8
+  * Thunder makes Pytorch models up to 40% faster: https://github.com/Lightning-AI/lightning-thunder?tab=readme-ov-file
+  * Comprehensive list of AI Agents: https://github.com/e2b-dev/awesome-ai-agents
+  * OpenDevin: https://github.com/OpenDevin/OpenDevin
+* Community/project updates
+  * Contributors of the month (March)
+    * Cornelis Boon ([PR](https://github.com/flyteorg/flyte/pull/5026) and community support)
+    * Blake Jackson (community support)
+  * User badges [discussion](https://github.com/flyteorg/flyte/discussions/5111)
+  * [Integrations survey](https://forms.gle/H6xYAese5UyxkAe8A)
+  * [Blog: Intro to the Agents framework](https://www.union.ai/blog-post/flyte-agents-framework)
+  * [Talk @ Open AI + Data Forum "Fine-tuning LLMs with OSS tooling"](https://sched.co/1aBNK)
+* Guest presentation
+  * Michael Tinsley and Bram van Meurs from Adarga.ai: **Orchestrating efficiency in our ML workflows**
+* Open mic/questions [add your name]
+
 ## March 5th, 2024
 
 * Host: David Espejo
