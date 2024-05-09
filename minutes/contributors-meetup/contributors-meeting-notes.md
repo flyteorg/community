@@ -1,6 +1,34 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## April 25, 2024
+* Attendees [name, affiliation]
+    * Nikki Everett (Union)
+    * David Espejo (Union)
+    * Eric (Han-Ru) Chen (Future-Outlier)
+    * Robert Ulbrich (Mercedes-Benz)
+    * Eduardo Apolinario (Union)
+    * Kevin Su (Union)
+* Welcome new members
+  * Lina Sjongren (Spotify)
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+
+## April 11, 2024
+* Attendees [name, affiliation]
+    * Fabio Grätz (Recogni)
+    * Nikki Everett (Union)
+    * Dan Rammer (Union)
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+  * Integrations Inventory:
+    * Deliverable so far: https://github.com/flyteorg/community/blob/main/working-groups/plugin-inventory/2024-inventory.md
+ * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+ * Community pulse
+ * Open mic/questions [add your name]
+
 ## March 28, 2024
 
  * Attendees [name, affiliation]
