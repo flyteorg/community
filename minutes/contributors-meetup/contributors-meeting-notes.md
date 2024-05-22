@@ -1,6 +1,69 @@
 # Flyte Contributors meetup - meeting notes archive
 
 -----
+## May 9, 2024
+  * Attendees [name, affiliation]
+    * David Espejo (Union)
+    * Niels Bantilan (Union)
+    * Eduardo Apolinario (Union)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+    * [Project isolation RFC updates](https://github.com/flyteorg/flyte/pull/5204)
+      * Notes:
+        * Robert reviewed the current implementation of the project isolation feature, which uses an interceptor to check the user's access permissions based on claims in the token. The team discussed potential weaknesses in the current approach, such as the need to manually maintain a list of all endpoints, and explored alternative solutions like using the user ID instead of claims. 
+Eduardo suggested extending the project isolation feature to support other dimensions like environment, in order to create a more comprehensive role-based access control (RBAC) system. The team agreed this could be a valuable enhancement, while being mindful of not conflicting with union.ai's commercial offering.
+    * [Elastic plugin UX](https://github.com/flyteorg/flyte/issues/5339)
+      * Notes:
+        * Niels proposed improving the configuration for shared memory used in distributed training setups, to provide a more user-friendly default experience. The team discussed technical details around mounting, timeouts, and integrating this with the flight-run fast registration process.
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * Nothing new this week
+  * Open mic/questions [add your name]
+      * Multi-cluster deployment
+        * Datacatalog, Ingress and auth on multi-cluster (Fabio)
+            
+            From [docs](https://docs.flyte.org/en/latest/deployment/deployment/multicluster.html#data-plane-deployment):
+
+            ```yaml
+            configmap:
+              admin:
+                admin:
+                  endpoint: <your-Ingress-FQDN>:443 #indicate the URL you're using to connect to Flyte
+                  insecure: false #enables secure communication over SSL. Requires a signed certificate
+              catalog:
+                catalog-cache:
+                  endpoint: <your-Ingress-FQDN>:443
+                  insecure: false
+            ```     
+            
+            How does auth work if one was to expose datacatalog through the ingress?
+            
+            * **Notes**: datacatalog currently doesn't use auth. The team agreed to add a disclaimer in the docs clarifying that users need to handle the networking and authentication for these cross-cluster connections.
+            * [PR is merged](https://github.com/flyteorg/flyte/pull/5345)
+
+        * Can cluster labels be specified for projects via the helm values? See [issue](https://github.com/flyteorg/flyte/issues/4029#issuecomment-2100479357). (Fabio)
+        * When using the cluster in which the control plane is deployed also as a dataplane, it would be nice to use in-cluster credentials. Would you agree if I add such an option? (Fabio)
+            ```yaml
+            configmap:
+              clusters:
+               clusterConfigs:
+               - name: "dataplane_1"
+                 endpoint: https://<your-dataplane1-kubeapi-endpoint>:443
+                 enabled: true
+                 auth:
+                    type: "file_path"
+                    tokenPath: "/var/run/credentials/dataplane_1_token"
+                    certPath: "/var/run/credentials/dataplane_1_cacert"
+               - name: "controlplane"
+                 inCluster: true  # Proposed flag
+            ```
+            
+            Check [here](https://github.com/flyteorg/flyte/blob/c0f5b10777fbdfcf2b08059a270b04f0c60d7678/flyteadmin/pkg/flytek8s/client.go#L57) if flag is set.
+    * Ownership of plugins. Should there be something like `flytekitplugins.contrib.x` to signal that a plugin is purely community maintained? Then some process to promote out of `.contrib`.
+      * Notes
+        * Fabio proposed introducing a "contrib" tag for community-maintained plugins, to help users better understand the support and maintenance levels for different plugins. The team agreed this was a good idea and will explore the details of how to implement this in a future RFC.
+    * Support local pip-installable packages in ImageSpec and pyflyte run --remote: https://github.com/flyteorg/flyte/issues/5343
+
+
 ## April 25, 2024
 * Attendees [name, affiliation]
     * Nikki Everett (Union)
