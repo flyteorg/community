@@ -1,6 +1,38 @@
 # Flyte Contributors meetup - meeting notes archive
 
------
+
+## May 23, 2024
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * Robert Ulbrich (Mercedes-Benz)
+  * Han-Ru Chen (Future-Outlier)
+  * Eduardo Apolinario (Union.ai)
+  * Fabio Grätz
+  * Rafael Raposo (Spotify)
+* Welcome new members
+  * None this week
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+  * `cluster-pool` added, no backend implementation ([reference](https://github.com/flyteorg/flyte/pull/4956#issuecomment-2114843886))
+    * Notes:
+      * Fabio: maybe just a code comment would go a long way to avoid confusions. Rafael agrees.
+      * Eduardo: one additional tactic would use reserverd fields on flyteidl. For other parts of the code, leaning into comments would be a good approach.
+      * Rafael: adding reserved fields in the protos would save time
+  * Feature request: [Vertical Pod scaling](https://github.com/flyteorg/flyte/issues/2234)
+    * Notes:
+      * Swarup (Software engineer at Stripe)
+      * Next step: create an RFC Incubator post. David to promote it in the community to find other community members who want to commment on it.
+  * Task node overrides still partially broken (`task_config`), see [issue](https://github.com/flyteorg/flyte/issues/4543#issuecomment-2127217720). Do we remove the `task_config` override ([beta](https://github.com/flyteorg/flytekit/blob/91cfb973eecca2ef35f0f5959f9754a1f51af451/flytekit/core/node.py#L187)) or is there a way to fix it? To fix it, we'd have to be able to access the task template in `with_overrides` as the backend is not aware of the task_config itself.
+    * Notes:
+      * Eduardo to explore how to expose the task_config, which would require re routing
+      * Fabio: if we could override the template would be better than sending the task_config to the backend.
+      * Eduardo: further discussion is needed, to fix it for all fields.
+
+ -----
+
+
 ## May 9, 2024
   * Attendees [name, affiliation]
     * David Espejo (Union)
