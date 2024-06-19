@@ -5,7 +5,6 @@ The current Maintainers Group for the Flyte project consists of:
 | [Ketan Umare](https://github.com/kumare3)     |Union.ai          | Chair, Technical Steering Committee                  |
 |[Fabio Grätz](https://github.com/fg91)| Recogni | Technical Steering Committee|
 |[Eduardo Apolinario](https://github.com/eapolinario)|Union.ai|Technical Steering Committee|
-|[Bernhard Stadlbauer](https://github.com/bstadlbauer)|Pachama|Technical Steering Committee|
 |[Niels Bantilan](https://github.com/cosmicBboy)|Union.ai | Technical Steering Committee|
 |[Rafael Raposo](https://github.com/RRap0so)|Spotify | Technical Steering Committee|
 |[Haytham Abuelfutuh](https://github.com/EngHabu)|Union.ai|Maintainer|
