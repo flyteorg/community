@@ -1,5 +1,30 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## June 6th, 2024
+ * Attendees [name, affiliation]
+     * Eduardo Apolinario (Union.ai)
+     * David Espejo (Union.ai)
+     * Yee (union.ai)
+ * Welcome new members
+   * Jason Parraga
+ * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+ * Working Groups updates
+ * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+ * Community pulse
+   * Open and noteworthy 
+     * [Support non-any Python types](https://github.com/flyteorg/flyte/pull/5408)
+     * [Adding identity to Python agents](https://github.com/flyteorg/flytekit/pull/2315)
+     * [Fixes the OAuth callback URL for subpaths](https://github.com/flyteorg/flyte/pull/5192)
+     * [Fix console bradcrumbs for subpahts](https://github.com/flyteorg/flyteconsole/pull/861)
+   * Recently merged 
+ * Open mic/questions [add your name]
+   * Release process and [RC](https://github.com/flyteorg/flyte/releases/tag/v1.12.1-rc0)
+   * [New candidate for TSC](https://github.com/flyteorg/community/issues/25)
+   * [Add ImageBuilderSpec.should_build method](https://github.com/flyteorg/flytekit/pull/2458)
+   * [pyflyte run --copy flag](https://github.com/flyteorg/flyte/issues/5343)
+
+
+
 
 ## May 23, 2024
 * Attendees [name, affiliation]
