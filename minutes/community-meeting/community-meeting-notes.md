@@ -59,6 +59,43 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 * [Github Discussions](https://github.com/flyteorg/flyte/discussions)
      
 -----
+
+## June 11, 2024
+* Host: David Espejo
+* Attendees [name, affiliation]
+* Welcome new members
+* News from the ecosystem
+* Community/project updates
+  * On-site workshop tomorrow: https://www.eventbrite.com/e/build-a-custom-chatbot-with-llms-rag-workshop-tickets-911682686457
+  * Release process
+  * Azure reference implementation: https://github.com/unionai-oss/deploy-flyte/blob/main/environments/azure/flyte-core/README.md
+* Guest presentation (show & tell)
+  * Neural big data analysis with Flyte - **Tom Touati, brain.space**
+  * Enable MLOps with Union Serverless - **Niels Bantilan, Haytham Abuelfutuh and Kelsey Hightower**
+* Open mic/questions [add your name]
+  * 
+
+
+## May 7, 2024
+* Host: David Espejo / Sage Elliot
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * 
+* Welcome new members
+* Community/project updates
+  * [New blog from Wallapop](https://medium.com/inside-wallapop/the-flyte-journey-at-wallapop-8582d985b121)
+  * Changes to Office Hours
+  * flyte 1.12.0 [released!](https://github.com/flyteorg/flyte/releases/tag/v1.12.0)
+    * Improved accuracy on status reporting by Propeller
+    * More flexible Ingress config
+    * Fixed syntax and rendering errors on Helm charts
+    * Additional and/updated docs sections
+  * New AI-powered assistant
+* Guest presentation (show & tell)
+  * Fast-forwarding MLOps at [sennder](https://www.sennder.com/en) (Mariano/Nandakumar)
+  * RunLLM (Vikram/Chenggang)
+* Open mic/questions [add your name]
+
 ## April 2, 2024
 
 * Host: Sage Elliott
