@@ -31,6 +31,7 @@ Please maintain an alphabetical order in the following list -->
 - [MethaneSAT](https://www.methanesat.org/)
 - [Nokia Corporation](https://www.nokia.com/)
 - [Ntropy](https://ntropy.com/)
+- [OpenSource4You](https://www.facebook.com/opensource4you)
 - [Pachama](https://pachama.com/)
 - [PITS Global Data Recovery Services](https://www.pitsdatarecovery.net/)
 - [Porch](https://porch.com)
