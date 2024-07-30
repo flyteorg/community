@@ -24,6 +24,59 @@
    * [pyflyte run --copy flag](https://github.com/flyteorg/flyte/issues/5343)
 
 
+## July 18, 2024 (It shoudld have been) cancelled
+## July 4, 2024 CANCELLED DUE TO US HOLIDAY
+## June 20th, 2024
+ * Attendees [name, affiliation]
+   * David (Union.ai)
+   * Niels (Union.ai)
+   * Eduardo (Union.ai)
+   * Rob Ulbrich (Mercedes Benz)
+   * Rafael Raposo (Spotify)
+   * Fabio Graetz (Recogni)
+   * Daniel Sola (Union.ai)
+   * Haytham (Union.ai)
+ * Welcome new members
+ * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+   * Project Isolation RFC
+     * There can be a compile-time solution for the flyteadmin middleware issue
+     * It would be a check in case there's a new endpoint. If not set, flyteadmin won't compile. 
+     * Rob Ulbrich to upstream this change, then we can move the RFC back to the Final Comment Period
+ * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+ * Community pulse
+   * PRs pending for review:
+     * [Execution cluster label support](https://github.com/flyteorg/flytekit/pull/2422) (Fabio will review one more time by end of day)
+     * [keep envFrom from podTemplate](https://github.com/flyteorg/flyte/pull/5423)
+       * Eduardo to review
+     * [Improve flyte-core Helm chart](https://github.com/flyteorg/flyte/pull/5362)
+       * Yee or David to give final review
+     * [Support positional arguments](https://github.com/flyteorg/flytekit/pull/2522)
+   * Open, most commented Issues
+     * [task_config override is broken](https://github.com/flyteorg/flyte/issues/4543)
+       * Still broken and not easy to fix.
+       * Eduardo and Fabio to sync
+     * [Support for declaring tasks in classes](https://github.com/flyteorg/flyte/issues/3492)
+       * Needs a champion and further validation to see if the idea is valid
+     * [Method to query large workflows](https://github.com/flyteorg/flyte/issues/4056)
+       * Fabio: agree with the need
+     * [Union types fail for e.g. two different dataclasses](https://github.com/flyteorg/flyte/issues/5489) (Not commented a lot yet but maybe worth discussing)
+       * Supporting inheritance in dataclasses is a common use case
+       * We could use the metadata field to pass information, including Python under bases
+       * We could encode inheritance in the metadata field but type checking wouldn't be simple anymore
+       * More discussion needed
+ * Open mic/questions [add your name]
+   * Changes in the TSC (David)
+     * Bernhard stepping down: https://github.com/flyteorg/community/pull/26
+     * Welcome Rafael Raposo!
+   * Numpy 2 is painful 😭 (Niels)
+     * Significant impact when a foundational library gets a major release
+     * CI checks fixed
+   * Revisit `--copy` flag, i.e. fast registration UX: https://github.com/flyteorg/flyte/issues/5343 (Niels)
+     * The intent is to include source files
+     * A recent contribution introduced the .flyteignore file that works similar to Git's
+     * A better ModuleNotFound error would be great too
+     * Fabio: I think making it easy to inject other packages is a great feature. I feel another flag is not a catastrophe, trying to detect it automatically seems like it might be brittle.
+     * Rafael: another flag should be fine
 
 
 ## May 23, 2024
