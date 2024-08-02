@@ -1,5 +1,71 @@
 # Flyte Contributors meetup - meeting notes archive
 
+
+## August 1, 2024
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * Fabio Grätz
+  * Rafael Raposo
+* Welcome new members
+  * Bugra Cedik, StackAV
+  * Andy Czerwonka, Principal Engineer at Citrine Informatics
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * [Deterministic error propagation](https://github.com/flyteorg/flyte/pull/5598)
+  * [JSON IDL](https://github.com/flyteorg/flyte/pull/5607)
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions
+  * Andy Czerwonka (Attempting to adopt Flyte on the JVM, with future Python use cases). I realize we'll likely not get to all of this, but we're at a tipping point in our adoption. Should we schedule a JVM-focused discussion?
+    * Citrine Use Cases
+      * Task/Workflows written by engineers, published using CI/CD
+      * Tasks/Workflows triggered from API servers
+      * Client requesting workflow status
+    * Deployment architecture
+      * Current offering is single tenant
+      * Flyte cluster will be multi-tenant, offloading jobs to a regional cluster
+      * Need S3 storage isolation for each tenant (Flyte project)
+    * Understanding the Gap between jflyte and pyflyte
+      * I don't really understand where the gaps is, I learn as I go, creates a tonne of adoption risk
+      * Features of jflyte vs "the platform"
+    * Getting to a Baseline where we can contribute
+	  * Ownership (who are the contributors)
+	  * Baseline
+		- Protos have not been updated in 2 years
+		- Flyte publishes 20-ish libraries, yet the docs suggest we're good with one or two
+		- Registration is the only exposed Flyte Admin capability, not sure why
+		- Roadmap
+		- Github Issues
+    * Progress (Technical Details)
+	  * Data Binding challenges using Struct / Binary
+		- JSON support seems obvious? How are people managing without?
+		- Can we use custom protos?
+	  * Copying all jars on every task execution
+	  * How does the map/reduce workflow work in `flytekit-java`
+	  * Integration with DataDog
+	  * New `Job` attribute, can someone give insight into the use case it's intended to solve?
+
+**Minutes**
+
+
+- RFC discussion
+
+Error handling for distributed tasks @ 2:03
+Fabio presented a proposal to address the issue of race conditions when multiple worker pods try to write error files during a distributed training task. The goal is to make error handling more deterministic by allowing each worker pod to write its own error file, so the first error can be identified as the likely root cause. The team discussed potential implementation approaches and open questions around how the plugin should communicate the need for multiple error file outputs.
+
+Handling of task outputs @ 5:16
+The group explored how task outputs are currently handled, noting that some plugins have race conditions for outputs similar to the error file issue. The team discussed whether the plugin should be responsible for handling output communication to avoid issues like having to return a list of outputs instead of a single value.
+
+Backwards compatibility for new error handling @ 13:05
+Eduardo raised the question of the backwards compatibility story for the proposed error handling changes. The team discussed a plan to leverage metadata and type transformations to maintain compatibility with existing tasks, while allowing the new error handling functionality.
+
+Community contributed plugins @ 16:47
+David brought up the topic of how community contributed plugins are currently handled, noting that they automatically become maintenance tasks for the core team. The group agreed this is not ideal, and discussed the need for a process to better manage community contributions, potentially by marking them as "community" plugins.
+
+- Open mic  
+
+Java SDK usage and gaps @ 19:36
+Andy from Citrine Informatics shared his experience and challenges in trying to adopt the Java SDK for Flyte, including issues with data types, deployment, and the overall state of the Java ecosystem compared to the Python SDK. The group discussed potential ways to better support the Java use case, including documentation, roadmapping, and enabling more community contributions.
+
+
 ## June 6th, 2024
  * Attendees [name, affiliation]
      * Eduardo Apolinario (Union.ai)
