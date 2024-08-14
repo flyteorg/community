@@ -5,43 +5,34 @@ You'll find here relevant information to get started as a member and potentially
 # Communication channels
 Learn how to stay informed on what's happening in the Flyte community:
 ## Community meeting:
-  * When: every other Tuesday at 9:00a.m. PT
-  * Where: Zoom ([add to your calendar](https://www.addevent.com/event/EA7823958))
+  * When: first Tuesday of every month at 9:00a.m. PT
+  * Where: live streaming on [YouTube](https://www.youtube.com/@flyteorg/streams) and [LinkedIn](https://www.linkedin.com/showcase/flyte-oss/events/)
+  * How: [import the calendar](https://lists.lfaidata.foundation/g/flyte-announce/ics/12031983/2145304139/feed.ics)
+  
   * Past meetings ([recordings](https://www.youtube.com/@flyteorg/playlists) | [notes](https://hackmd.io/@flyte-community/r1PDrxkEh))
 
 ### Schedule of guest presentations
 
-This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic [to the list](https://hackmd.io/y97JldOBSBCdPpI_36XpdQ?both#Schedule-of-guest-presentations) and we'll reach out to coordinate logistics
+| Date | Presenter  | Topic  |   
+|---|---|---|
+| 09/03/2024  | Sebastian Schulze, Merantix  |Introducing the flytekit-omegaconf plugin   |
+| 09/03/2024 | Devendra Johari | Flyte at Giesecke+Devrient|
+| 10/01/2024 | Victor Delepine | Flyte at Wayve.ai |
+|11/05/2024   | TBD (slot open)  |Propose a talk!   |
+
+
+This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic and we'll reach out to coordinate logistics
 
 ## Contributors meetup
-* When: every other Thursday at 11:00a.m. PT
-* Where: Zoom ([add to your calendar](https://www.addevent.com/event/xn16931566))
+* When: every other Thursday alternating between 7:00am and 11:00a.m. PT
+* Where: Zoom ([import the calendar](https://lists.lfaidata.foundation/g/flyte-announce/ics/12031983/2145304139/feed.ics))
 * Past meetings: ([recordings](https://www.youtube.com/playlist?list=PLmQd1BBY9MWozXmf4NGS8zQK17E5aV8oE) | [notes](https://github.com/flyteorg/community/tree/main/minutes/contributors-meetup))
 ## Slack
 *  [Join Flyte workspace](https://slack.flyte.org/)
 
 ## Mailing list
-* [Subscribe](https://lists.lfaidata.foundation/g/flyte-announce/join) to receive the monthly newsletter
+* [Subscribe](https://lists.lfaidata.foundation/g/flyte-announce/join) to receive the weekly newsletter
 
-## Office Hours
-
-Live informal sessions with the Flyte team held every week. Book a 30-minute slot and get your questions answered.
-
-[Schedule your session](https://calendly.com/flyte-office-hours-01/30min) depending on the following topics to coordinate the availability of a maintainer with expertise in the area:
-
-- **7:00a.m. PT**: 
-   - Anything flytekit-related
-   - Flyte releases
-   - flytepropeller features
-   - Plugin implementation
-   - Platform configuration
-- **1:00p.m. PT**:
-   - Flyte deployment on cloud
-- **9:00p.m. PT**:
-   - Flytekit-related
-   - Use cases 
-   - Getting started (workflow onboarding)
-   - Integrations
 
 # Community structure
 
