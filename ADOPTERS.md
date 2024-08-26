@@ -34,6 +34,7 @@ Please maintain an alphabetical order in the following list -->
 - [OpenSource4You](https://www.facebook.com/opensource4you)
 - [Pachama](https://pachama.com/)
 - [PITS Global Data Recovery Services](https://www.pitsdatarecovery.net/)
+- [Pixis.ai] (https://pixis.ai/)
 - [Porch](https://porch.com)
 - [Quantumblack, AI by McKinsey](https://www.mckinsey.com/capabilities/quantumblack/labs)
 - [Recogni](https://www.recogni.com/)
