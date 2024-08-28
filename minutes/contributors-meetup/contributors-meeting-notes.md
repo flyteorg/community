@@ -1,5 +1,39 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## August 15, 2024
+
+* Attendees [name, affiliation]
+  * David Espejo(Union.ai)
+  * Fabio Grätz
+  * Eduardo Apolinario (Union.ai)
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+
+**Minutes**
+
+Changing meeting time to regular schedule @ 0:00
+
+David proposed moving the meeting back to the regular time of every other Thursday at 11am Pacific, as the alternating schedule has had limited success and excludes many US-based contributors. The group agreed to this change.
+
+New RFC: Serialized execution of launch plans @ 1:36
+
+Eduardo introduced a new RFC to allow serialized execution of launch plans, which has been a long-requested feature. The goal is to provide a mechanism to control concurrency at the workflow level, such as for scheduled runs. The group discussed some potential edge cases and implications, and agreed to review the RFC in more detail.
+
+New RFC: Offloading large literals to blob storage @ 11:09
+
+Eduardo also presented a new RFC to address the issue of hitting GRPC limits with large fan-out jobs, by offloading large literals to blob storage. This is initially being scoped for map tasks, but the plan is to extend it to other workflow types. The group was generally supportive of this proposal.
+
+Incubator project: Task execution optimization @ 14:03
+
+David noted a recent entry in the incubator project list around task execution optimization, and encouraged the group to review and provide feedback on the discussion thread if they have strong opinions.
+
+Meeting wrap-up @ 15:01
+
+The group concluded the meeting, with a reminder to continue discussing the RFC proposals on the relevant channels.
+
 
 ## August 1, 2024
 * Attendees [name, affiliation]
