@@ -36,16 +36,16 @@ This meeting is open for the entire ML/Data community to share their knowledge. 
 
 # Community structure
 
-The Flyte community is led by a [Technical Steering Committee](https://github.com/flyteorg/community/blob/main/MAINTAINERS.md) composed by individuals from different organizations who oversee the future direction of the project, voting on proposals and acting on new initiatives for the benefit of Flyte as a project and community.
+The Flyte community is led by a [Technical Steering Committee](https://github.com/flyteorg/community/blob/main/MAINTAINERS.md) composed of individuals from different organizations who oversee the future direction of the project, voting on proposals and acting on new initiatives for the benefit of Flyte as a project and community.
 
-The [GOVERNANCE](https://github.com/flyteorg/community/blob/main/GOVERNANCE.md) model includes additional roles and describe different ways to contribute, earn more privileges and exercise additional responsibilites for the Flyte community.
+The [GOVERNANCE](https://github.com/flyteorg/community/blob/main/GOVERNANCE.md) model includes additional roles and describes different ways to contribute, earn more privileges and exercise additional responsibilities for the Flyte community.
 
 The following types of groups are part of the Governance model:
 
 ## Working Groups
 Temporary groups formed to address issues that cross SIG boundaries, delivering a concrete result or artifact.
 ## Special Interest Groups
-Persistent open groups that foucs on a part of the project. The purpose of a SIG is to own an develop a set of subprojects.
+Persistent open groups that focus on a part of the project. The purpose of a SIG is to own and develop a set of subprojects.
 
 See the [full governance doc](https://github.com/flyteorg/community/blob/main/GOVERNANCE.md) for more details on these groups.
 # How to contribute
