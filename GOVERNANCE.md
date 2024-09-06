@@ -3,7 +3,7 @@
 This document defines the governance structure for the Flyte project.
 
 ## Overview
-Flyte, a graduated LF AI&Data Foundation project, is committed to building an open, inclusive, productive and self-governing open source community focused on building a scalable and resillient platform for Machine Learning and Data Processing workloads. This document aims to define how community should work together to achieve this goal.
+Flyte, a graduated LF AI&Data Foundation project, is committed to building an open, inclusive, productive and self-governing open source community focused on building a scalable and resilient platform for Machine Learning and Data Processing workloads. This document aims to define how community should work together to achieve this goal.
 
 
 ## Community roles and path to maintainership:
@@ -125,7 +125,7 @@ The following table lists the roles we use within the Flyte community. The table
     <td>
         <p>Set priorities and roadmap for the project</p>
         <p>Mentor new contributors and maintainers</p>
-        <p>Vote on governace, role, RFCs, and other project-wide changes</p>
+        <p>Vote on governance, role, RFCs, and other project-wide changes</p>
     </td>
     <td>
         <p>Must be an existing maintainer</p>
