@@ -18,7 +18,8 @@ Learn how to stay informed on what's happening in the Flyte community:
 | 09/03/2024  | Sebastian Schulze, Merantix  |Introducing the flytekit-omegaconf plugin   |
 | 09/03/2024 | Devendra Johari | Flyte at Giesecke+Devrient|
 | 10/01/2024 | Victor Delepine | Flyte at Wayve.ai |
-|11/05/2024   | TBD (slot open)  |Propose a talk!   |
+|11/05/2024   | Aswanth Krishnan, Xinzhou Liu |Flyte journey at Atomwise and QPIVolta   |
+|12/03/2024   | TBC  |TBC   |
 
 
 This meeting is open for the entire ML/Data community to share their knowledge. If you want to present, add your name and topic and we'll reach out to coordinate logistics
