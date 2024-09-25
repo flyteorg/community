@@ -1,5 +1,46 @@
 # Flyte Contributors meetup - meeting notes archive
 
+
+## August 29, 2024
+
+ * Attendees [name, affiliation]
+   * David Espejo (Union.ai)
+   * Fabio Grätz
+   * Kevin Su
+   * Chun-Mao Lai
+   * Eduardo Apolinario (Union.ai)
+  * Welcome new members
+    * Chun-Mao (Michael) Lai (Incoming UC San Diego student/OSS contributor)
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Discuss existing RFCs
+      * Community plugins RFC
+          * https://github.com/flyteorg/flyte/pull/5610/files#r1736689384
+          * https://github.com/flyteorg/flyte/pull/5610/files#r1736694079
+      * Execution Concurrency
+          * https://github.com/flyteorg/flyte/pull/5659/files#r1722376237
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Open mic/questions [add your name]
+    * [Rafael] Keeping versions in sync (flyteidl/1.13.2 etc...)
+    * [Fabio] https://github.com/flyteorg/flyte/issues/5684
+
+**Minutes**
+
+
+Introducing new RFC for tuple support @ 4:49
+Michael presented a new RFC to add support for named tuples and tuple types in Flyte. The key goals are to allow users to specify the name of a tuple and the names of its fields, and to add new types to support these new tuple constructs. The group discussed various implementation details and tradeoffs, such as how to handle the case where a tuple is returned as part of a larger output structure.
+
+Exploring options for tuple support @ 9:00
+The group explored different approaches for implementing tuple support, including:
+
+Treating tuples as a first-class type with special handling
+Treating tuples the same as lists, with no special support
+Creating a new "univariate tuple" type distinct from regular tuples The group agreed that a prototype implementation would be helpful to better understand the tradeoffs and implications of the different approaches.
+Discussing impact on existing Flight features @ 27:39
+The group discussed how adding tuple support could impact existing Flight features, such as the ability to reference fields in named tuples returned by tasks. There were concerns about maintaining backwards compatibility, and the group agreed that the prototype should aim to preserve existing behaviors where possible.
+
+Recap and next steps @ 39:59
+The group summarized the key open questions and agreed that Michael should work on a prototype implementation to further explore the different approaches. The group will continue the discussion asynchronously and revisit the topic in a future meeting.
+
 ## August 15, 2024
 
 * Attendees [name, affiliation]
