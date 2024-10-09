@@ -86,8 +86,8 @@ The following table lists the roles we use within the Flyte community. The table
     </td>
     <td>
         <p>May request changes to PRs</p>
-        <p>May review, approve PRs (non-binding), and merge approved PRs.<p>
-        <p>Can create/edit releases </p>
+        <p>May review, approve PRs (non-binding), and merge approved PRs</p>
+        <p>Can create/edit releases</p>
         <p>May push branches</p>
     </td>
    <td>Specific repo(s) under flyteorg</td> 
