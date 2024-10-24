@@ -1,5 +1,73 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## October 10, 2024
+* Attendees [name, affiliation]
+  * Yee Tong, Union
+  * Jason Parraga
+  * Paul Dittamo, Union
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+  * Open mic/questions [add your name]
+      * Jason Parraga - Execution Concurrency Threshold Support
+
+
+
+## Sep 26, 2024
+
+* Attendees [name, affiliation]
+    * Fabio Grätz
+    * David Espejo
+    * Eduardo Apolinario
+    * John Votta
+    * Niels Bantilan
+    * Jason Parraga
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+  * Tuple/NamedTuple: https://github.com/flyteorg/flytekit/pull/2732
+  * Deterministic error propagation for distributed tasks https://github.com/flyteorg/flyte/pull/5598 
+* Open mic/questions [add your name]
+
+## Minutes
+
+### Key Takeaways
+
+- Large object handling improvements coming soon, addressing community pain points
+- Binary IDL implementation progressing, solving multiple issues (JSON-like objects, data classes, unions)
+- New error aggregation strategy proposed for distributed tasks, improving root cause identification
+
+### Topics
+
+#### Large Object Handling
+Upcoming feature to offload large objects to Blob store, circumventing gRPC limitations.
+Configurable thresholds for when objects get offloaded (min/max sizes).
+No new flags or opt-in mechanism; seamless integration with existing SDK.
+#### Binary IDL (Implementation in Progress)
+Addresses multiple issues: JSON-like object encoding, data classes, Pydantic models, union types
+Reuses existing literal types, reducing deployment risks
+Improves developer experience across various contexts (e.g., dictionaries with integer values)
+Beta release expected in November, including UI visualization updates.
+
+#### Error Aggregation for Distributed Tasks
+New RFC proposes timestamp-based error aggregation for distributed training jobs
+Aims to solve race conditions in error reporting for multi-pod setups
+Key changes:
+Unique error file names (UUID-based) to avoid overwrites
+Error documents to include timestamps and worker names
+New error file reader in Propeller to aggregate multiple error files
+Plugin properties to specify error aggregation strategy
+Backwards compatibility considerations included
+
+#### Community Plugins
+Updated process: plugin authors responsible for maintenance, Flyte maintainers for approvals/merging
+Triage permissions for non-binding approvals to be explored
+
+#### Next Steps
+- Eduardo to review the error aggregation RFC in detail
+- David to tag Paul for a sanity check on the multi-error output reader proposal
+- Fabio to potentially work on implementation if RFC is accepted
+- Consider organizing a talk/panel on distributed training with Flyte
+- Update community plugin RFC with non-binding approval process for plugin maintainers
 
 ## August 29, 2024
 
