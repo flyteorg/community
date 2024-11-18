@@ -1,5 +1,32 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## November 7, 2024
+
+ * Attendees [name, affiliation]
+     * Fabio Grätz (Recogni.com)
+     * David Espejo (Union.ai)
+     * Eduardo Apolibnario (Union.ai)
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+    * Yunikorn/Kueue: https://github.com/flyteorg/flyte/pull/5915
+      * Fabio uses the co-scheduling plugin for K8s: https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/coscheduling
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+    * David to go through the list to validate which of the ideas can be closed as done
+  * Open mic/questions [add your name]
+
+
+## October 24, 2024
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * Fabio Grätz
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+* Community pulse
+* Open mic/questions [add your name]
+  * Alternating schedule poll: https://flyte-org.slack.com/archives/C04NJPLRWUX/p1728302170293159
+  * Locking mechanism and Agents: https://github.com/flyteorg/flyte/discussions/3754
 ## October 10, 2024
 * Attendees [name, affiliation]
   * Yee Tong, Union
