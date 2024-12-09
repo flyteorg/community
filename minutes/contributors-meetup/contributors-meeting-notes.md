@@ -1,11 +1,43 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## December 5, 2024 (7:00 am PT)
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+  * OSS mentoring programs (David)
+  * Clarification question about Flyte copilot
+
+## Nov 21, 2024
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * Eduardo Apolinario (Union.ai)
+  * Jason Parraga (Stack AV)
+  * 
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
+ * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+ * Open mic/questions [add your name]
+   * Flytekit rust entrypoint?https://github.com/flyteorg/flytekit/pull/2307
+   * Jupyter NB integration: `interactive_mode_enabled` should it stay or should it go? ([context](https://github.com/flyteorg/flytekit/pull/2858))
+     * >WARNING  remote.py:286 - Jupyter notebook and interactive task  
+                         support is still alpha. 
+   *  Thomas Huang - Multiple namespace support - expand `limit-namespace` to `limit-namespaces`
+   *  Behaviour of DeviceFlow pyflyte tokens
+      *  It should work with external but not with the internal OAuth2 server
+      *  
+
 ## November 7, 2024
 
  * Attendees [name, affiliation]
      * Fabio Grätz (Recogni.com)
      * David Espejo (Union.ai)
-     * Eduardo Apolibnario (Union.ai)
+     * Eduardo Apolinario (Union.ai)
   * Welcome new members
   * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
   * Discuss [active RFCs]((https://github.com/orgs/flyteorg/projects/12/views/1))
