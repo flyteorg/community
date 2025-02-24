@@ -33,6 +33,7 @@ Please maintain an alphabetical order in the following list -->
 - [Ntropy](https://ntropy.com/)
 - [OpenSource4You](https://www.facebook.com/opensource4you)
 - [Pachama](https://pachama.com/)
+- [Pathomiq](https://pathomiq.com/)
 - [PITS Global Data Recovery Services](https://www.pitsdatarecovery.net/)
 - [Pixis.ai](https://pixis.ai/)
 - [Porch](https://porch.com)
