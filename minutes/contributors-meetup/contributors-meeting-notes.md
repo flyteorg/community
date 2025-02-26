@@ -1,5 +1,22 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## February 13, 2025
+  * Attendees [name, affiliation]
+      * Eduardo Apolinario
+      * Fabio Grätz
+      * David Espejo
+      * Jason Parraga
+  * Welcome new members
+  * Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+  * Discuss [active RFCs](https://github.com/orgs/flyteorg/projects/12)
+  * Working Groups updates
+  * New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+      * https://github.com/flyteorg/flyte/discussions/6240
+  * Open mic/questions [add your name]
+      * * https://github.com/flyteorg/flyte/issues/6238 (Fabio)
+      * Go version updates in Flyte
+      * Node execution state vs task execution phase and timeouts
+
 ## December 5, 2024 (7:00 am PT)
 * Attendees [name, affiliation]
   * David Espejo (Union.ai)
