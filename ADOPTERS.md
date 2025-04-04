@@ -42,6 +42,7 @@ Please maintain an alphabetical order in the following list -->
 - [Roboception](https://www.youtube.com/watch?v=JQnn5C4u6LY)
 - [RunX.dev](https://runx.dev/)
 - [Schibsted](https://schibsted.com/)
+- [Schibsted Media](https://schibstedmedia.com/)
 - [Spotify](https://www.spotify.com/)
 - [Stash](https://www.stash.com/)
 - [Stripe](https://www.youtube.com/watch?v=gRxdvrA9VAs)
