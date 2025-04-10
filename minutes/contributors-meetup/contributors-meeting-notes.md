@@ -1,5 +1,38 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## March 27, 2025
+* Attendees [name, affiliation]
+    * David Espejo (Union.ai)
+    * Fabio Grätz
+    * Kevin Su
+    * Jason Parraga (Stack AV)
+* Welcome new members
+  * Hsuan-Chen Chen
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs](https://github.com/orgs/flyteorg/projects/12)
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+    * Question about implementation of `@task(labels=..., annotations=...)` (see [issue](https://github.com/flyteorg/flyte/issues/6238#issuecomment-2755445765 ))
+    * Need help with review of https://github.com/flyteorg/flyte/pull/6294
+---
+## March 13, 2025
+* Attendees [name, affiliation]
+  * David Espejo (Union.ai)
+  * Fabio Grätz
+  * Kevin Su
+* Welcome new members
+  * Nary Yeh
+  * Kevin Laio
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs](https://github.com/orgs/flyteorg/projects/12)
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+  * Flyte Agents renaming
+    * Backwards compatibility still a challenge
+    * [Fabio] Renaming in the frontend but not in backend to simplify process
+  * Question about implementation of [this](https://github.com/flyteorg/flyte/issues/6238) issue, in particular [this](https://github.com/flyteorg/flyte/pull/6319#discussion_r1986113960) comment
 ## February 13, 2025
   * Attendees [name, affiliation]
       * Eduardo Apolinario
