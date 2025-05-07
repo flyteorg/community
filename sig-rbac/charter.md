@@ -7,13 +7,18 @@ Maintain a working RBAC implementation that doesn't break Flyte.
 
 ### In scope
 
+- Ensure the feature remains working with new releases
+- Address security vulnerabilities 
+- Isolate and fix performance or reliability penalties that large scale Flyte deployments could incur due to the RBAC implementation
+
 #### Code, Binaries and Services
 
-- list of what qualifies:  a piece of code, binary or service as falling into the scope of this SIG. It could be a repo, folder, piece(s) of documentation, CI, etc.
+- Essentially, everything covered by [this PR](https://github.com/flyteorg/flyte/pull/6190)
 
 ### Out of scope
 
-Outline of things that could be confused as falling into this SIG but don't or don't right now.
+- Participate in security audits by third parties on RBAC adopters
+- Cloud provider-specific or IdP-specific custom configurations
 
 ## Roles and Organization Management
 
