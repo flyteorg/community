@@ -44,9 +44,9 @@ workinggroups:
  #    slack: https://flyte-org.slack.com/archives/C05A4PNMKL1
 
  - name: plugin-inventory-WG
-   mission_statement: Answer the question: "What plugins are available for Flyte and what's their status?"
+   mission_statement: "Answer the question: 'What plugins are available for Flyte and what's their status?'"
    stakeholder_sigs: []
-   deliverable:  Wiki/Issue with a list that includes the following:
+   deliverable:  "Wiki/Issue with a list that includes the following:"
      - Plugin type (backend/WebAPI) 
      - Maintainer(s)
      - Status: does it work or not?
@@ -64,3 +64,12 @@ workinggroups:
        name: Nikki Everett
    contact:
      slack: https://flyte-org.slack.com/archives/C06N0HNS25Q
+
+sigs:
+- name: sig-rbac
+  mission_statement: "Maintain a working implmentation of RBAC for Flyte"
+  leadership:
+    chairs:
+      - <GITHUB_HANDLE>
+  members:
+    - <GITHUB_HANDLE>
