@@ -1,5 +1,36 @@
 # Flyte Contributors meetup - meeting notes archive
 
+## April 24, 2023
+
+* Attendees [name, affiliation]
+  * David Espejo (Union)
+  * Fabio Grätz
+  * Rafael Raposo
+* Welcome new members
+* Outstanding items from previous meeting
+  * SIG-RBAC
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs](https://github.com/orgs/flyteorg/projects/12)
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+* Open mic/questions [add your name]
+  * triage-party [David]
+
+## April 10, 20225
+
+* Attendees [name, affiliation]
+* Welcome new members
+* Introduce [new RFCs](https://github.com/orgs/flyteorg/projects/12/views/1)
+* Discuss [active RFCs](https://github.com/orgs/flyteorg/projects/12)
+* Working Groups updates
+* New ideas in [the incubator](https://github.com/flyteorg/flyte/discussions/categories/rfc-incubator)
+  * Resources extension: good idea, reach out to Stripe for brainstorming
+* Open mic/questions [add your name]
+  * Working Groups
+    * Create SIG RBAC 
+      * Reach out to MB
+  * PR reviews
+    * In three repos
+    
 ## March 27, 2025
 * Attendees [name, affiliation]
     * David Espejo (Union.ai)
