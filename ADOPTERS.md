@@ -23,6 +23,7 @@ Please maintain an alphabetical order in the following list -->
 - [Kineo.ai](https://www.kineo.ai/)
 - [LatchBio](https://www.latch.bio/)
 - [Level 5 Global Autonomous (Woven Planet)](https://level-5.global/)
+- [Lila Sciences](https://lila.ai/)
 - [LinkedIn](https://www.linkedin.com/)
 - [Lyft](https://www.lyft.com/)
 - [Memverge](https://youtu.be/UGt2KUrf-Ok)
