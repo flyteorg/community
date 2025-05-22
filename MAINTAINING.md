@@ -15,6 +15,7 @@ We are using [triage-party](https://github.com/google/triage-party?tab=readme-ov
 |`needs-reproduction`| We have asked the issue author to add context to reproduce the issue or we have the info but couldn't reproduce|
 |`do-not-merge`| PRs that are approved but shouldn't be merged yet as they have dependencies.|
 |`needs-rebase`| We have asked the author to rebase to the main branch to fix conflicts|
+|`work-in-progress`| For PRs in draft or WIP state|
 
 ## Pull Requests
 
