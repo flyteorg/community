@@ -27,6 +27,8 @@ and opts-in to updates and modifications to [GOVERNANCE].
 
 - SIG Chair(s): 
     - Name/Github handle of SIG Chair(s)
+- Community member:
+    - Robert Deaton / @rdeaton-freenome
 
 ## Communication channels
 
