@@ -15,6 +15,7 @@ Please maintain an alphabetical order in the following list -->
 - [Discovery](https://www.discovery.com/)
 - [Embark Veterinary](https://www.youtube.com/watch?v=zk3KFKYBRhU)
 - [Freenome](https://www.freenome.com/)
+- [Gridmatic](https://www.gridmatic.com/)
 - [Gojek](https://www.gojek.io/)
 - [HBO](https://www.hbo.com/)
 - [Hubert Burda Media](https://www.burda.com/en/)
