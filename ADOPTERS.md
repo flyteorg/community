@@ -27,6 +27,7 @@ Please maintain an alphabetical order in the following list -->
 - [Lila Sciences](https://lila.ai/)
 - [LinkedIn](https://www.linkedin.com/)
 - [Lyft](https://www.lyft.com/)
+- [Luma AI](https://lumalabs.ai/)
 - [Memverge](https://youtu.be/UGt2KUrf-Ok)
 - [Merantix](https://www.merantix.com/)
 - [Metabit Trading](https://www.metabit-trading.com/home)
