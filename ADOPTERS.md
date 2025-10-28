@@ -56,6 +56,7 @@ Please maintain an alphabetical order in the following list -->
 - [Wallapop](https://es.wallapop.com/)
 - [Warner Bros](https://www.warnerbros.com/)
 - [Wolt](https://www.wolt.com)
+- [Xyme](https://www.xyme.ai/)
 - [Ziprecruiter](https://www.youtube.com/watch?v=E3W2UjIa6Gg)
 - [Zymergen](https://www.zymergen.com/)
 
