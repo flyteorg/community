@@ -37,6 +37,7 @@ Please maintain an alphabetical order in the following list -->
 - [OpenSource4You](https://www.facebook.com/opensource4you)
 - [Pachama](https://pachama.com/)
 - [Pathomiq](https://pathomiq.com/)
+- [Phrase](https://phrase.com/)
 - [PITS Global Data Recovery Services](https://www.pitsdatarecovery.net/)
 - [Pixis.ai](https://pixis.ai/)
 - [Porch](https://porch.com)
